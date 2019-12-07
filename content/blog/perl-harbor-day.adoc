@@ -1,0 +1,26 @@
+---
+title: "Perl Harbor Day"
+date: 2019-12-07T15:55:02-05:00
+draft: false
+tags: ["ThankYou", "programming", "theme", "hugo", "asciidoc"]
+categories: ["General"]
+author: "Jim Shingler"
+description: "On Pearl Harbor Day, Appreciating our Veterans"
+banner: "img/banners/uss-arizona.jpg"
+---
+# Pearl Harbor Day
+
+December 7, 1941,78 Years ago, was a day we should never forget.  Many people lost their lives that day. 
+
+
+We should never forget the ultimate sacrific that was made by the Greatest Generation.
+
+
+Please Take a minute to pray for all of our veterans past, present, and future.
+
+
+**May God watch over you.**
+
+
+https://www.usatoday.com/story/news/nation/2019/12/07/pearl-harbor-remembrance-day-2019-veterans-memories-live/4351791002/[Pearl Harbor veterans' memories of the 'day of infamy' live on after 78 years]
+

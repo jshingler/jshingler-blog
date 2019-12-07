@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "https://jshingler.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "JShingler Blog"
 theme = "hugo-universal-theme"
 
 style = "green"
@@ -181,4 +181,4 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "From the blog"
-    subtitle = "Rambling's from Shingler's Thoughts Blog on a variety of topics: Technical, Professional, and Personal Development"
+    subtitle = "Rambling from Jim Shingler on a variety of topics: Technical, Professional, and Personal Development"
