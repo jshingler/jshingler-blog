@@ -10,6 +10,10 @@ description: "This tutorial will show you how to create a simple theme in Hugo. 
 banner: "img/banners/banner-1.jpg"
 ---
 
+:source-highlighter: rouge
+:rouge-style: molokai
+:icons: font
+
 This will become the first blog on this new site.
 
 Goals:
@@ -21,6 +25,28 @@ Goals:
     * Asciidoctor
 
 Mention Drew Heintz callout on Hugo
+
+
+
+
+
+[NOTE]
+====
+There are things to note!
+====
+
+```java,linenums
+public static void main( String args[] ) {
+    System.out.println("Foobar!"); <1>
+}
+```
+
+<1> Print something
+
+
+asdf
+
+'''
 
 Other Resources:
 
