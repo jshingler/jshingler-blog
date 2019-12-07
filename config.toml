@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "jshingler"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-3999637-3"
+googleAnalytics = "UA-154182389-1"
 
 # Define the number of posts per page
 paginate = 10
