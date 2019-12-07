@@ -1,8 +1,8 @@
 ---
-title: "Perl Harbor Day"
+title: "Pearl Harbor Day"
 date: 2019-12-07T15:55:02-05:00
 draft: false
-tags: ["ThankYou", "programming", "theme", "hugo", "asciidoc"]
+tags: ["ThankYou"]
 categories: ["General"]
 author: "Jim Shingler"
 description: "On Pearl Harbor Day, Appreciating our Veterans"
