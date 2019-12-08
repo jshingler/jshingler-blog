@@ -25,6 +25,13 @@ Goals:
 
 Mention Drew Heintz callout on Hugo
 
+Content:
+* Enable Google Maps
+* Enable Google Analytics
+* Submit for Google Indexing - put file in static
+* Enable Disqus
+* Enable ContactMe Formspree
+
 
 
 

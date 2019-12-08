@@ -1,0 +1,34 @@
+# jshingler.github.io
+
+This is the repo that generates http://jshingler.github.io, a Static Website / Blog Hosted on github.
+
+I was inspired by [https://www.linkedin.com/in/andrew-heintz-93821513a/[Drew Heintz's] work in generating his resume using https://gohugo.io/[Hugo] and 
+https://www.linkedin.com/in/sasiperi/[Sasi Peri's] github.io https://https://sasiperi.github.io/[blog].
+
+Given my love of http://asciidoc.org/[Asciidoc] specifically, https://asciidoctor.org/[AsciiDoctor] I found a couple of references that lead me to building my http://jshingler.github.io site using the following technologies:
+
+* github.io site
+* Hugo
+* Hugo Universal Theme
+* AsciiDoc and AsciiDoctor
+* Google Prettify for syntax highlighting
+* VS Code
+* Google Analytics Key
+* Google Map Key
+* Email with Formspree
+* Disque for comments
+
+## Basic Setup
+
+1. Have Github account
+2. Install AsciiDoctor
+3. Install Hugo
+4. Generate New Hugo Site 
+5. Install Hugo Universal Theme and Tweak
+
+## Everyday Usage
+
+* ```hugo server -D``` Good for local dev site http://localhost:1313 - includes draft items otherwise; ```hugo server``` 
+* ```hugo```  generates site to the public directory
+* publish to github with ```deploy.sh```
+* Basic git commands to push this source repo
