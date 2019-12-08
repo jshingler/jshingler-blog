@@ -75,9 +75,9 @@ paginate = 10
 
     viewMorePostLink = "/blog/"
     author = "Jim Shingler"
-    defaultKeywords = ["devows", "hugo", "go"]
+    defaultKeywords = ["jshingler", "Lean", "Agile", "devOps", "java", "Spring", "Cloud Native", "Microservices", "hugo", "go"]
     mainSections = ["blog"]
-    defaultDescription = "Jim Shingler Blog about interestes: Professional ( lean, agile, devOps, devSecOps ), Technical ( Java, Spring, Cloud Native, Microservices ), Personal Development, Growth, and Learning"
+    defaultDescription = "Jim Shingler Blog about interestes: Professional ( lean, agile, devOps, devSecOps ), Technical ( Java, Spring, Cloud Native, Microservices ), Personal Development ( ThinkScript ), Growth, and Learning"
     #defaultDescription = "Site template made by devcows using hugo"
 
     # Social media
