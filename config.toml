@@ -1,6 +1,6 @@
 baseURL = "https://jshingler.github.io/"
 languageCode = "en-us"
-title = "JShingler Blog"
+title = "Jim Shingler Blog"
 theme = "hugo-universal-theme"
 style = "green"
 # Site language. Available translations in the theme's `/i18n` directory.
@@ -74,9 +74,10 @@ paginate = 10
     # custom_css = ["css/prism.css","css/custom.css"]
 
     viewMorePostLink = "/blog/"
-    author = "JShingler"
+    author = "Jim Shingler"
     defaultKeywords = ["devows", "hugo", "go"]
     mainSections = ["blog"]
+    defaultDescription = "Jim Shingler Blog about interestes: Professional ( lean, agile, devOps, devSecOps ), Technical ( Java, Spring, Cloud Native, Microservices ), Personal Development, Growth, and Learning"
     #defaultDescription = "Site template made by devcows using hugo"
 
     # Social media
@@ -184,5 +185,5 @@ paginate = 10
 
 [params.recent_posts]
     enable = true
-    title = "From the blog"
+    title = "Jim Shingler blog"
     subtitle = "Ramblings from Jim Shingler on a variety of topics: Technical, Professional, and Personal Development"
