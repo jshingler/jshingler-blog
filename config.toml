@@ -46,19 +46,19 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/jshingler"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/jimshingler/"
+    pre = "<i class='fab fa-2x fa-linkedin'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "Twitter"
-    url = "http://twitter.com"
+    url = "http://twitter.com/jshingler"
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
