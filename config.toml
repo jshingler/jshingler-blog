@@ -2,7 +2,7 @@ baseURL = "https://jshingler.github.io/"
 languageCode = "en-us"
 title = "JShingler Blog"
 theme = "hugo-universal-theme"
-style = ".green"
+style = "green"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
@@ -69,7 +69,9 @@ paginate = 10
 
 [params]
     # Custom CSS
-    custom_css = ["css/molokai.css","css/custom.css"]
+    custom_css = ["css/custom.css"]
+    # custom_css = ["css/molokai.css","css/custom.css"]
+    # custom_css = ["css/prism.css","css/custom.css"]
 
     viewMorePostLink = "/blog/"
     author = "JShingler"
@@ -83,7 +85,7 @@ paginate = 10
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    #googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    googleMapsApiKey = "AIzaSyA1N45cD4qWwsgnuE1F39p1SYaM0w0ldQg"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -183,4 +185,4 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "From the blog"
-    subtitle = "Rambling from Jim Shingler on a variety of topics: Technical, Professional, and Personal Development"
+    subtitle = "Ramblings from Jim Shingler on a variety of topics: Technical, Professional, and Personal Development"

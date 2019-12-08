@@ -10,8 +10,7 @@ description: "This tutorial will show you how to create a simple theme in Hugo. 
 banner: "img/banners/banner-1.jpg"
 ---
 
-:source-highlighter: rouge
-:rouge-style: molokai
+:source-highlighter: prettify
 :icons: font
 
 This will become the first blog on this new site.
@@ -35,13 +34,39 @@ Mention Drew Heintz callout on Hugo
 There are things to note!
 ====
 
-```java,linenums
+
+[source,groovy,linenums]
+.jim.groovy
+----
+package com.mrhaki
+
+import static ratpack.groovy.Groovy.ratpack
+
+ratpack {
+    handlers {
+        get {
+            render "Hello World!" // <1>
+        }
+    }
+}
+----
+
+
+.Simple Java Ratpack application
+[source,java,linenums]
+----
 public static void main( String args[] ) {
-    System.out.println("Foobar!"); <1>
+    System.out.println("Foobar!");  <1>
+}
+----
+
+```source,java,linenums
+public static void main( String args[] ) {
+    System.out.println("Foobar!");  <1>
 }
 ```
 
-<1> Print something
+<1>   Print something
 
 
 asdf
@@ -62,5 +87,6 @@ Other Resources:
 - How to create a blog with AsciiDoc: https://opensource.com/article/17/8/asciidoc-web-development
 - https://www.bryanklein.com/blog/hugo-asciidoctor-vscode-gitlab-firebase/
 - Hugo Release: https://github.com/gohugoio/hugo/releases
+- https://github.com/google/code-prettify[Google Code Prettify]
 
 
