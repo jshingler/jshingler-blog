@@ -186,4 +186,4 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "Jim Shingler blog"
-    subtitle = "Ramblings from Jim Shingler on a variety of topics: Technical, Professional, and Personal Development"
+    subtitle = "Thoughts on: Technical, Professional, and Personal Development"
