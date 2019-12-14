@@ -12,6 +12,10 @@ banner: "img/banners/banner-1.jpg"
 
 :source-highlighter: prettify
 :icons: font
+:imagesdir-old: {imagesdir}
+:imagesdir: ../../../../../img/blog/creating-this-site
+
+STATUS: Work in process, I will continue to flush this out.
 
 While I am not new to blogging, I was re-inspired by https://www.linkedin.com/in/sasiperi/[Sasi Peri], a coworker, and her new https://sasiperi.github.io/[blog].  This gave me the itch to share my experiences and information with hope of helping others.
 
@@ -19,7 +23,9 @@ Now that I was re-inspired to blog, I had a fortunate conversation with https://
 
 After a little searching, I ran across https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Youtub Hugo Tutorial]. In addition, I found that Hugo and https://asciidoctor.org/[AsciiDoctor], one of favorite tools, could be used together, https://rgielen.net/posts/2019/creating-a-blog-with-hugo-and-asciidoctor/["Creating a Blog with Hugo and AsciiDoctor"].
 
-NOTE: Start with https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Youtub Hugo Tutorial].
+.AsciiDoc in VS Code
+image::VSCodeAsciidoc.png[VS Code Asciidoc]
+
 
 Properly motivated and educated, I set the following goals:
 
@@ -34,9 +40,131 @@ While I have a good bit of experience building Websites, I am far from a Designe
 
 From there it was time to give it a shot.
 
+NOTE: Start with https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Youtub Hugo Tutorial] and https://charly3pins.github.io/post/building-static-blog-with-hugo/[Building a Static Blog with Hugo]
+
 ''''
 
-MORE TO COME!!!
+## Install Tools
+
+I'll assume you already know https://git-scm.com/[Git] and have a http://github.com[Github] account.
+
+### Install Go
+
+Hugo uses http://golang.org[go]. https://golang.org/dl/[Installation Instructions]
+
+### Install AsciiDoctor
+
+AsciiDoctor has a good installation https://asciidoctor.org/docs/install-toolchain/[instructions] 
+
+NOTE: AsciiDoctor requires ruby
+
+
+
+### Install Hugo
+
+I am a Mac guy, so I installed Hugo from the https://gohugo.io/getting-started/installing/#install-hugo-from-tarball[tarball].
+
+
+''''
+
+## Getting Started
+
+Loads of Credit to https://charly3pins.github.io[Charly3pins] and his posting  https://charly3pins.github.io/post/building-static-blog-with-hugo/[Building a Static Blog with Hugo]
+
+### Create Empty Site
+
+```source,bash
+hugo new site jshingler
+```
+
+results in:
+
+CAUTION: Insert Pic of Fresh Site
+
+### Setup a Theme
+
+.Because we are good devs, initialize git
+```source,bash
+cd jshingler
+git init
+```
+
+I chose the https://themes.gohugo.io/hugo-universal-theme/[Universal Theme] from the https://themes.gohugo.io/[Hugo Themes] you choose what you like best.
+
+```source,bash
+git clone https://github.com/devcows/hugo-universal-theme.git themes/hugo-universal-theme
+```
+
+NOTE: If you haven't already done it, ... Do yourself a favor, watch the https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Youtub Hugo Tutorial]
+
+Explore the theme, ... A really good place to look is the example site.  You can find it at: ```themes/hugo-universal-them/exampleSite```
+
+### Tune the Theme
+
+The universal theme is pretty robust, ... It has a lot of features that I really don't need for a Minimum Viable Product.  The ```config.toml``` file is used to configure the features.
+
+### Local Development
+
+```source,bash
+hugo server -D
+```
+
+Dash D, ```-D```, allows draft content to be servered,  Not check it out http://localhost:1313
+
+#### Add Content
+
+```source,bash
+hugo new blog/creating-this-site.adoc
+```
+
+### Publish to Github
+
+CAUTION: Add Info on publishing to github.io
+
+
+.deploy.sh - slightly modified from Charly3Pins
+```source,bash
+#!/bin/bash
+set -x
+
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+# Remove old Stuff  <1>
+cd public
+rm -fr *
+cd .. 
+
+# Build the project.
+hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add .
+
+# Commit changes.
+msg="rebuilding site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+
+# Push source and build repos.
+git push origin master
+
+# Come Back up to the Project Root
+cd ..
+```
+
+<1> If you delete something from the site, if you really want it to be delete, you need to clean out the ```public``` directory.
+
+
+''''
+
+## MORE TO COME!!!
+
+''''
 
 Content:
 
@@ -47,18 +175,10 @@ Content:
 * Enable ContactMe Formspree
 
 
+## What's Next
 
-## Simple Test Formating Java Code with CueBalls
-
-.Simple Java application
-```source,java,linenums
-public static void main( String args[] ) {
-    System.out.println("Foobar!");  <1>
-}
-```
-
-<1>   Print something
-
+René at his https://rgielen.net/about/[blog] has a pretty good article about 
+https://rgielen.net/posts/2019/creating-a-dockerized-hugo-asciidoctor-toolchain/[Creating a Dockerized Hugo + AsciiDoctor Toolchain].  Next, I am thinking about using this with https://help.github.com/en/actions[GitHub worksflows and actions] to that when I push a change to the master branch of my repository, the website is automatically rebuilt and published.
 
 ''''
 

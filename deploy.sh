@@ -3,11 +3,11 @@ set -x
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-
-# Remove old Stuff
+# Remove old Stuff  <1>
 cd public
 rm -fr *
-cd ..
+cd .. 
+
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
