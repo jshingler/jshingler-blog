@@ -23,7 +23,7 @@ NOTE: Start with https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5
 
 Properly motivated and educated, I set the following goals:
 
-* host at: jshingler.github.io
+* host at: https://jshingler.github.io
 * make publishing as easy as possbile and looking great
 ** Hugo
 ** Hugo Themes
