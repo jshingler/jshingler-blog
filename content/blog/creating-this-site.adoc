@@ -13,19 +13,33 @@ banner: "img/banners/banner-1.jpg"
 :source-highlighter: prettify
 :icons: font
 
-This will become the first blog on this new site.
+While I am not new to blogging, I was re-inspired by https://www.linkedin.com/in/sasiperi/[Sasi Peri], a coworker, and her new https://sasiperi.github.io/[blog].  This gave me the itch to share my experiences and information with hope of helping others.
 
-Goals:
+Now that I was re-inspired to blog, I had a fortunate conversation with https://www.linkedin.com/in/andrew-heintz-93821513a/[Drew Heintz].  Drew is a bright young man finishing up his Computer Science and Security degrees from https://rit.edu[RIT].  Drew, shared with me that he did his resume using https://gohugo.io[Hugo].  Hugo is similar to https://github.com/jekyll[jekyll static site generator] only written in https://golang.org[go] instead of https://ruby-lang.org[ruby].
 
-* use Asciidoc
+After a little searching, I ran across https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Youtub Hugo Tutorial]. In addition, I found that Hugo and https://asciidoctor.org/[AsciiDoctor], one of favorite tools, could be used together, https://rgielen.net/posts/2019/creating-a-blog-with-hugo-and-asciidoctor/["Creating a Blog with Hugo and AsciiDoctor"].
+
+NOTE: Start with https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Youtub Hugo Tutorial].
+
+Properly motivated and educated, I set the following goals:
+
 * host at: jshingler.github.io
 * make publishing as easy as possbile and looking great
-    * Hugo
-    * Asciidoctor
+** Hugo
+** Hugo Themes
+** Asciidoctor
+** Well Formated Code with CueBalls
 
-Mention Drew Heintz callout on Hugo
+While I have a good bit of experience building Websites, I am far from a Designer.  Lucky for me, Hugo has https://themes.gohugo.io/[Themes]. After previewing the themes, I landed on the https://themes.gohugo.io/hugo-universal-theme/[Universal Theme].  It is a great looking theme with a ton of features, more than I need, and good instructions on configuring them.
+
+From there it was time to give it a shot.
+
+''''
+
+MORE TO COME!!!
 
 Content:
+
 * Enable Google Maps
 * Enable Google Analytics
 * Submit for Google Indexing - put file in static
@@ -34,39 +48,9 @@ Content:
 
 
 
+## Simple Test Formating Java Code with CueBalls
 
-
-[NOTE]
-====
-There are things to note!
-====
-
-
-[source,groovy,linenums]
-.jim.groovy
-----
-package com.mrhaki
-
-import static ratpack.groovy.Groovy.ratpack
-
-ratpack {
-    handlers {
-        get {
-            render "Hello World!" // <1>
-        }
-    }
-}
-----
-
-
-.Simple Java Ratpack application
-[source,java,linenums]
-----
-public static void main( String args[] ) {
-    System.out.println("Foobar!");  <1>
-}
-----
-
+.Simple Java application
 ```source,java,linenums
 public static void main( String args[] ) {
     System.out.println("Foobar!");  <1>
@@ -75,22 +59,23 @@ public static void main( String args[] ) {
 
 <1>   Print something
 
-'''
 
-Other Resources:
+''''
 
-- Hugo: https://gohugo.io
-- Asciidoctor: https://asciidoctor.org/
-- Asciidoc: http://asciidoc.org/
-- VS Code: https://code.visualstudio.com/
-- Giraffe Academy Hugo Tutorial: https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3
-- Github site info: https://charly3pins.github.io/post/building-static-blog-with-hugo/
-- How to get Code Formatting with Hugo and Asciidoc: https://rgielen.net/posts/2019/creating-a-blog-with-hugo-and-asciidoctor/
-- needed for when using theme and codeformatting: https://discourse.gohugo.io/t/how-to-override-css-classes-with-hugo/3033
-- Creating a Dockerized Hugo + AsciiDoctor Toolchain: https://rgielen.net/posts/2019/creating-a-dockerized-hugo-asciidoctor-toolchain/
-- How to create a blog with AsciiDoc: https://opensource.com/article/17/8/asciidoc-web-development
+Resources:
+
+- https://gohugo.io[Hugo] 
+- https://github.com/gohugoio/hugo/releases[Hugo Release] Get Hugo Here
+- https://asciidoctor.org/[Asciidoctor]
+- http://asciidoc.org/[Asciidoc]
+- https://code.visualstudio.com/[VS Code]
+- https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Hugo Tutorial]
+- https://charly3pins.github.io/post/building-static-blog-with-hugo/[Building Static Blog with Hugo]
+- https://rgielen.net/posts/2019/creating-a-blog-with-hugo-and-asciidoctor/[Creating a Blog with Hugo and AsciiDoctor], contains code formatting information.
+- https://discourse.gohugo.io/t/how-to-override-css-classes-with-hugo/3033[How to override CSS classes with Hugo]
+- https://rgielen.net/posts/2019/creating-a-dockerized-hugo-asciidoctor-toolchain/[Creating a Dockerized Hugo + AsciiDoctor Toolchain:]
+- https://opensource.com/article/17/8/asciidoc-web-development[How to create a blog with AsciiDoc]
 - https://www.bryanklein.com/blog/hugo-asciidoctor-vscode-gitlab-firebase/
-- Hugo Release: https://github.com/gohugoio/hugo/releases
 - https://github.com/google/code-prettify[Google Code Prettify]
 
 
