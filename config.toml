@@ -79,11 +79,12 @@ paginate = 10
 
 
 # tag::features[]
+# tag::customcss[]
 [params]
     # Custom CSS
     custom_css = ["css/custom.css"]
-    # custom_css = ["css/molokai.css","css/custom.css"]
-    # custom_css = ["css/prism.css","css/custom.css"]
+# end::customcss[]
+
 
     viewMorePostLink = "/blog/"
     author = "Jim Shingler"
