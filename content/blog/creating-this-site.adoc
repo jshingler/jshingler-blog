@@ -10,11 +10,9 @@ description: "This tutorial will show you how I created this site. It will use H
 ---
 
 :source-highlighter: prettify
-:icons: font
-:imagesdir-old: {imagesdir}
-:imagesdir: ../../../../../img/blog/creating-this-site
-:allow-uri-read: 
-:safe: 0
+:icons: font                  
+:imagesdir-old: {imagesdir}   
+:imagesdir: ../../../../../img/blog/creating-this-site 
 
 ## *STATUS:* Work in process 
 I will continue to flush this out.
@@ -138,6 +136,104 @@ Dash D, ```-D```, allows draft content to be servered,  Now, check it out http:/
 hugo new blog/creating-this-site.adoc
 ```
 
+results in:
+
+.Default front matters
+[source,asciidoc]
+----
+---
+title: "Create This Site"
+date: 2019-12-15T17:12:43-05:00 <.>
+draft: true <.>
+---
+----
+
+<1> date the document was created
+<2> it starts as a draft.
+
+The theme supports additional attributes.
+
+.Flushed out front matters for this theme.
+[source,asciidoc]
+----
+---
+title: "Creating This Site"
+date: 2019-12-07T13:46:46-05:00
+draft: false <.>
+tags: ["golang", "programming", "theme", "hugo", "asciidoc"] <.>
+categories: ["programming"] <.>
+banner: "img/banners/banner-1.jpg" <.>
+author: "Jim Shingler" <.>
+description: "This tutorial will show you how I created this site. It will use Hugo, Asciidoc via AsciiDoctor, and Github" <.>
+---
+----
+<1> No Longer a draft
+<2> Tag the blog post with these tags
+<3> Put it in the programming category
+<4> Use this image on front page
+<5> I authored it
+<6> a little description
+
+Now you start writing your asciidoc as usual.
+
+[source,asciidoc]
+----
+:source-highlighter: prettify   <.>
+:icons: font                    <.>
+:imagesdir-old: {imagesdir}     <.>
+:imagesdir: ../../../../../img/blog/creating-this-site <.> 
+
+## *STATUS:* Work in process 
+I will continue to flush this out.
+
+While I am not new to blogging, I was re-inspired by https://www.linkedin.com/in/sasiperi/[Sasi Peri], a coworker, and her new https://sasiperi.github.io/[blog].  This gave me the itch to share my experiences and information with hope of helping others.
+----
+
+<1> use google code prettify to format code, more instructions to follow
+<2> icons for Admonitions (NOTE, TIP, IMPORTANT, CAUTION, WARNING)
+<3> save the current image directory, might need it later
+<4> where to find images for this post
+
+#### Tuning CSS
+
+When you first combine the universal themes and asciidoc the results might be a little ugly.  To overcome it, you need to tweek the CSS.  To do this, you will need to copy the ```themes/hugo-universal-theme/layouts/partials/head.html``` to ```layouts/partials/head.html```.
+
+.Add this snippet to the head.html file
+[source,linenums]
+----
+include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/layouts/partials/head.html[tag=customcss]
+----
+
+This code will iterate through an array of css files defined in the ```config.toml``` file
+
+.Define an array of custom css
+[source]
+----
+include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/config.toml[tag=customcss]
+----
+
+Next, I copied the default Asciidocter style sheet and saved it as ```static/css/custom.css```.  This file is way to big to include, you can find my tweeked version https://github.com/jshingler/jshingler-blog/blob/master/static/css/custom.css[here].
+
+
+
+#### Code Formatting
+
+#### Includes
+By default, asciidoctor will turn included external urls into links instead of including them.  This can be overcome on the command line as ```asciidoctor -a allow-uri-read myfile.adoc```.  But we aren't using asciidoctor directly, hugo is calling it an we have no way to set the flag.  There is a creative work around, okay hack.  Create an asciidoctor bash script that adds the flag and make sure the asciidoctor bash script is first in your $PATH.
+
+CAUTION: This can cause a security issue.  *You must really trust what you are including.*  My advice is that unless you control the file being included, don't include it.
+
+[source,bash]
+----
+#!/bin/bash
+${HOME}/.rvm/gems/ruby-2.4.0/bin/asciidoctor -a allow-uri-read $*
+----
+
+```source,linenums
+include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/config.toml[tag=features]
+```
+
+
 // JLS TODO:
 // Show very basic adoc and formating issues
 // Explain how to use CSS to fix
@@ -238,30 +334,4 @@ https://rgielen.net/posts/2019/creating-a-dockerized-hugo-asciidoctor-toolchain/
 - https://www.bryanklein.com/blog/hugo-asciidoctor-vscode-gitlab-firebase/
 - https://github.com/google/code-prettify[Google Code Prettify]
 
-## Tuning CSS
-
-When you first combine the universal themes and asciidoc the results might be a little ugly.  To overcome it, you need to tweek the CSS.  To do this, you will need to copy the ```themes/hugo-universal-theme/layouts/partials/head.html``` to ```layouts/partials/head.html```.
-
-.Pull in custom css
-[source,linenums]
-----
-include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/layouts/partials/head.html[tag=customcss]
-----
-
-
-## Test Includes
-
-By default, asciidoctor will turn included external urls into links instead of including them.  This can be overcome on the command line as ```asciidoctor -a allow-uri-read myfile.adoc```.  But we aren't using asciidoctor directly, hugo is calling it an we have no way to set the flag.  There is a creative work around, okay hack.  Create an asciidoctor bash script that adds the flag and make sure the asciidoctor bash script is first in your $PATH.
-
-CAUTION: This can cause a security issue.  *You must really trust what you are including.*  My advice is that unless you control the file being included, don't include it.
-
-[source,bash]
-----
-#!/bin/bash
-${HOME}/.rvm/gems/ruby-2.4.0/bin/asciidoctor -a allow-uri-read $*
-----
-
-```source,linenums
-include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/config.toml[tag=features]
-```
 
