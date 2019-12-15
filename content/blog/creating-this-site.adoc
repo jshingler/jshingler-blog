@@ -4,10 +4,9 @@ date: 2019-12-07T13:46:46-05:00
 draft: false
 tags: ["golang", "programming", "theme", "hugo", "asciidoc"]
 categories: ["programming"]
-banner: "img/banners/banner-4.jpg"
-author: "Jim Shingler"
-description: "This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown and Asciidoc to format content."
 banner: "img/banners/banner-1.jpg"
+author: "Jim Shingler"
+description: "This tutorial will show you how I created this site. It will use Hugo, Asciidoc via AsciiDoctor, and Github"
 ---
 
 :source-highlighter: prettify
@@ -17,7 +16,8 @@ banner: "img/banners/banner-1.jpg"
 :allow-uri-read: 
 :safe: 0
 
-STATUS: Work in process, I will continue to flush this out.
+## *STATUS:* Work in process 
+I will continue to flush this out.
 
 While I am not new to blogging, I was re-inspired by https://www.linkedin.com/in/sasiperi/[Sasi Peri], a coworker, and her new https://sasiperi.github.io/[blog].  This gave me the itch to share my experiences and information with hope of helping others.
 
@@ -31,7 +31,8 @@ image::VSCodeAsciidoc.png[VS Code Asciidoc]
 
 Properly motivated and educated, I set the following goals:
 
-* host at: https://jshingler.github.io
+* static site hosted at: https://jshingler.github.io (https://github.com/jshingler/jshingler.github.io)
+* Site Source stored at: https://github.com/jshingler/jshingler-blog
 * make publishing as easy as possbile and looking great
 ** Hugo
 ** Hugo Themes
@@ -56,7 +57,7 @@ Hugo uses http://golang.org[go]. https://golang.org/dl/[Installation Instruction
 
 ### Install AsciiDoctor
 
-AsciiDoctor has a good installation https://asciidoctor.org/docs/install-toolchain/[instructions] 
+AsciiDoctor has good installation https://asciidoctor.org/docs/install-toolchain/[instructions] 
 
 NOTE: AsciiDoctor requires ruby
 
@@ -111,6 +112,10 @@ I chose the https://themes.gohugo.io/hugo-universal-theme/[Universal Theme] from
 git clone https://github.com/devcows/hugo-universal-theme.git themes/hugo-universal-theme
 ```
 
+WARNING: Don't for get to push the source back to your git repository. For me that is: https://github.com/jshingler/jshingler-blog.
+
+NOTE: As Charly3pins points out in his blog, you can also set your theme up as a submodule.
+
 NOTE: If you haven't already done it, ... Do yourself a favor, watch the https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[Giraffe Academy Youtub Hugo Tutorial]
 
 Explore the theme, ... A really good place to look is the example site.  You can find it at: ```themes/hugo-universal-them/exampleSite```
@@ -135,8 +140,21 @@ hugo new blog/creating-this-site.adoc
 
 ### Publish to Github
 
-CAUTION: Add Info on publishing to github.io
+Some really good instructions from the Hugo docs on https://gohugo.io/hosting-and-deployment/hosting-on-github/#types-of-github-pages[Publishing to Github.io] and more information on the https://help.github.com/en/github/working-with-github-pages/about-github-pages#user--organization-pages[github help pages]
 
+WARNING: Github pages have https://help.github.com/en/github/working-with-github-pages/about-github-pages#usage-limits[usage limits], I might have to figure out a different hosting option.
+
+I choose to use a user page https://jshingler.github.io. Make sure you have created ```<USERNAME>.github.io``` (E.g. https://github.com/jshingler/jshingler.github.io) repository on the github website. This is where the static content will be published to and served from.  While it might be tempting, *NEVER DIRECTLY MODIFY THE STATIC SITE*, always republish from the your hugo blog repository.
+
+> Finally you need to add the <USERNAME>.github.io repo inside the public folder as a git submodule in order to update your website once you regenerate the site.
+> -- Charly3pins
+
+```source,bash
+git submodule add -b master https://github.com/jshingler/jshingler.github.io.git public
+```
+
+
+Now publish the website.  Here is a slightly modified script from Charly3Pin's blog to publish the site.
 
 .deploy.sh - slightly modified from Charly3Pins
 ```source,bash
@@ -179,6 +197,8 @@ cd ..
 ''''
 
 ## MORE TO COME!!!
+* Code Formating (Google Code Prettify)
+* Custom CSS to fix AsciiDoc
 
 ''''
 
@@ -198,7 +218,7 @@ https://rgielen.net/posts/2019/creating-a-dockerized-hugo-asciidoctor-toolchain/
 
 ''''
 
-Resources:
+## Resources / Credits:
 
 - https://gohugo.io[Hugo] 
 - https://github.com/gohugoio/hugo/releases[Hugo Release] Get Hugo Here
