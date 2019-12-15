@@ -1,0 +1,119 @@
+---
+title: "Presentations"
+date: 2019-12-08T22:23:24-05:00
+draft: false
+tags: ["presentations"]
+categories: ["presentations"]
+// banner: "img/banners/banner-4.jpg"
+author: "Jim Shingler"
+description: "Interviews, Presentations, and Publications"
+// banner: "img/banners/banner-1.jpg"
+---
+:imagesdir-old: {imagesdir}
+:imagesdir: ../img/presentations
+
+## Presentations
+
+// Really Good Reference on table formatting
+// https://www.methods.co.nz/asciidoc/chunked/ch23.html
+// Turn off Stripes in CSS  
+// https://mrhaki.blogspot.com/2019/03/awesome-asciidoctor-change-striping-in.html
+// and http://github.com/asciidoctor/asciidoctor/issues/2173
+// Are note working
+[cols="a,a",frame=none,grid=none]
+|===
+
+| image::2018-devopsdays.jpg[https://www.slideshare.net/jshingler/devops-is-a-journey-not-an-event]
+| *DevOpsDays Columbus 2018* +
+DevOps is a journey, Not an event +
+https://www.slideshare.net/jshingler/devops-is-a-journey-not-an-event[Slides]
+
+| video::ZkzKk_om2bw[youtube]
+| *DevOpsDays Columbus 2018* +
+DevOps is a journey, Not an event +
+https://www.youtube.com/watch?v=ZkzKk_om2bw[YouTube Video]
+https://www.slideshare.net/jshingler/devops-is-a-journey-not-an-event[Slides]
+
+| image::cfs2017-hipaa.jpg[https://www.slideshare.net/jshingler/hipaa-solutions-on-cloud-foundry-204704278]
+| *Cloud Foundry Summit 2017* +
+HIPAA Solutions on Cloud Foundry +
+https://www.slideshare.net/jshingler/hipaa-solutions-on-cloud-foundry-204704278[Slides]
+
+| image::COJUGConcourse.png[https://jshingler.github.io/concourse-slides/#/,300,400]
+| *COJUG 2017* +
+Make Your Project Fly with Concourse +
+https://jshingler.github.io/concourse-slides/#/[Slides]
+
+| image:s12016shinglerv-IOT-2016.jpg[link="https://www.slideshare.net/jshingler/personal-healthcare-iot-on-pcf-using-spring-64967252",alt="Spring One Personal Healthcare IOT 2016"]     
+| *Spring One 2016* +
+Personal Healthcare IOT on PCF using Spring +
+https://www.slideshare.net/jshingler/personal-healthcare-iot-on-pcf-using-spring-64967252[Slides]
+https://content.pivotal.io/videos/personal-healthcare-iot-on-pcf-using-spring-jim-shingler-cardinal-health[Pivotal Article]   
+
+| video::8tMI_IlsaLk[youtube]
+| https://www.youtube.com/watch?v=8tMI_IlsaLk[YouTube Video]
+
+| image::s1customcms-2011.jpg[link="https://www.slideshare.net/jshingler/s1-2gx-2011-content-management-with-a-custom-cms",alt="Spring One Custom CMS 2011",target="_blank"]
+| *Spring One 2GX 2011* +
+Content Management with a Custom CMS +
+https://www.slideshare.net/jshingler/s1-2gx-2011-content-management-with-a-custom-cms[Slides]
+
+| image::s1grailsenterprise-2011.jpg[link="https://www.slideshare.net/jshingler/s1-2gx-using-grails-on-a-public-facing-fortune-500-website",alt="Using Grails on a public facing Fortune 500 website 2011"]
+| *Spring One 2GX 2011* +
+Using Grails on a public facing Fortune 500 website +
+https://www.slideshare.net/jshingler/s1-2gx-using-grails-on-a-public-facing-fortune-500-website[Slides]
+
+
+| image::jimshinglerspresentationongriffon-2009.jpg[link="https://www.slideshare.net/gr8conf/presentation-on-griffon-by-jim-shingler",alt="Intorduction toGriffon 2009"]
+| *G8Conf 2009* +
+Introduction to Griffion - Creating a Griffon: Rich Client front-end to our Twitter Clone +
+https://www.slideshare.net/gr8conf/presentation-on-griffon-by-jim-shingler[Slides]
+
+
+| image::griffoninfrontgrailsinback-2009.jpg[link="https://www.slideshare.net/jshingler/griffon-in-front-grails-in-back-presentation",alt="Griffon In Front, Grails in Back 2009"]
+| *CodeMash 2009* +
+Griffon In Front, Grails In Back +
+https://www.slideshare.net/jshingler/griffon-in-front-grails-in-back-presentation[Slides]
+
+
+| image::ggcodemash-2009.jpg[link="https://www.slideshare.net/jshingler/gg-code-mash2009-20090106-presentation",alt="Groovy and Grails Precomiler"] 
+| *CodeMash 2009* +
+Groovy and Grails Precompiler Session +
+https://www.slideshare.net/jshingler/gg-code-mash2009-20090106-presentation[Slides]
+|===
+
+'''
+
+## Publications
+
+[cols="a,a",frame=none,grid=none]
+|===
+|image::griffioninaction.png[height="400,width="300",link="https://www.manning.com/books/griffon-in-action"]
+| https://www.manning.com/books/griffon-in-action[ *Griffion In Action* ]
+
+| image::beginninggroovygrails.jpg[height="400,width="300",link="https://www.apress.com/us/book/9781430248064"]
+| https://www.apress.com/us/book/9781430248064[ *Beginning Groovy, Grails, and Griffion* ]
+
+| image::TOSandThinkscriptCollection.png[https://jshingler.github.io/TOS-and-Thinkscript-Snippet-Collection/TOS%20&%20Thinkscript%20Collection.pdf,300,400]
+| Short eBook on techniques for building indicators for the *"Think Or Swim"* trading platform using *"Thinkscript"*.  The eBook was an effort to save the great work of StanL (http://mytrade.com/StanL). +
+https://jshingler.github.io/TOS-and-Thinkscript-Snippet-Collection/TOS%20&%20Thinkscript%20Collection.pdf[ *TOS & Thinkscript Collection - PDF*] +
+https://jshingler.github.io/TOS-and-Thinkscript-Snippet-Collection/TOS%20&%20Thinkscript%20Collection.html[ *TOS & Thinkscript Collection - HTML*]
+|===
+
+
+'''
+
+## Interviews
+
+[cols="a,a",frame=none,grid=none]
+|===
+| image::builttoadapt-2017.jpeg[height="200,width="300",link="https://builttoadapt.io/creating-fusion-at-a-fortune-15-company-with-50k-employees-a406479eabbf"]
+| *Built To Adapt 2017* +
+Creating Fusion at a Fortune 15 Company +
+https://builttoadapt.io/creating-fusion-at-a-fortune-15-company-with-50k-employees-a406479eabbf[Article]
+
+|video::U9Xwui3KiKM[youtube]
+| https://www.youtube.com/watch?v=U9Xwui3KiKM[Youtube]
+|===
+
+
