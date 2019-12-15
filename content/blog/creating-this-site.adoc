@@ -14,9 +14,6 @@ description: "This tutorial will show you how I created this site. It will use H
 :imagesdir-old: {imagesdir}   
 :imagesdir: ../../../../../img/blog/creating-this-site 
 
-## *STATUS:* Work in process 
-I will continue to flush this out.
-
 While I am not new to blogging, I was re-inspired by https://www.linkedin.com/in/sasiperi/[Sasi Peri], a coworker, and her new https://sasiperi.github.io/[blog].  This gave me the itch to share my experiences and information with hope of helping others.
 
 Now that I was re-inspired to blog, I had a fortunate conversation with https://www.linkedin.com/in/andrew-heintz-93821513a/[Drew Heintz].  Drew is a bright young man finishing up his Computer Science and Security degrees from https://rit.edu[RIT].  Drew, shared with me that he did his resume using https://gohugo.io[Hugo].  Hugo is similar to https://github.com/jekyll[jekyll static site generator] only written in https://golang.org[go] instead of https://ruby-lang.org[ruby].
@@ -221,6 +218,7 @@ Next, I copied the default Asciidocter style sheet and saved it as ```static/css
 Okay, truth be told, getting code formatting working was a little harder than expected.  There are a variety of reasons but here is how I got it working.
 
 I looked at a variety of formatters.
+
 - coderay
 - prisim
 - highlights.js
@@ -235,6 +233,7 @@ The previous section showed the how to declare the syntax highlighter to use.  T
 
 [source,html]
 ----
+include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/layouts/partials/scripts.html[tag=codeformat]
 ----
 
 #### Includes
@@ -248,14 +247,10 @@ CAUTION: This can cause a security issue.  *You must really trust what you are i
 ${HOME}/.rvm/gems/ruby-2.4.0/bin/asciidoctor -a allow-uri-read $*
 ----
 
+.Sample including a portion of the ```config.toml``` file
 ```source,linenums
 include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/config.toml[tag=features]
 ```
-
-
-// JLS TODO:
-// Show very basic adoc and formating issues
-// Explain how to use CSS to fix
 
 ### Publish to Github
 
@@ -315,17 +310,13 @@ cd ..
 
 ''''
 
-## MORE TO COME!!!
-* Code Formating (Google Code Prettify)
-* Custom CSS to fix AsciiDoc
+## Additional Steps
 
-''''
-
-Content:
+That is pretty well it.  I now have a functional blog published to github.io.  I won't go into the details, here are some additional steps I performed, most of which where in the ```config.toml``` file
 
 * Enable Google Maps
 * Enable Google Analytics
-* Submit for Google Indexing - put file in static
+* Submit for Google Indexing
 * Enable Disqus
 * Enable ContactMe Formspree
 
