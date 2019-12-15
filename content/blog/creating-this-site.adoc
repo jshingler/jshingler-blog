@@ -218,6 +218,25 @@ Next, I copied the default Asciidocter style sheet and saved it as ```static/css
 
 #### Code Formatting
 
+Okay, truth be told, getting code formatting working was a little harder than expected.  There are a variety of reasons but here is how I got it working.
+
+I looked at a variety of formatters.
+- coderay
+- prisim
+- highlights.js
+- https://github.com/google/code-prettify[Google Code Prettify]
+
+I decided to use https://raw.githack.com/google/code-prettify/master/styles/index.html[Google Code Prettify - Sons of Obsidian] style.
+
+The previous section showed the how to declare the syntax highlighter to use.  There is one additionl step.  The corresponding javascipt file need to be imported. 
+
+1. Copy ```themes/hugo-universal-theme/layouts/partials/scripts.html``` to ```layouts/partials/scripts.html```
+2. Add the javascript declaration to the file
+
+[source,html]
+----
+----
+
 #### Includes
 By default, asciidoctor will turn included external urls into links instead of including them.  This can be overcome on the command line as ```asciidoctor -a allow-uri-read myfile.adoc```.  But we aren't using asciidoctor directly, hugo is calling it an we have no way to set the flag.  There is a creative work around, okay hack.  Create an asciidoctor bash script that adds the flag and make sure the asciidoctor bash script is first in your $PATH.
 
