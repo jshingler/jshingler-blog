@@ -9,7 +9,7 @@ author: "Jim Shingler"
 description: "List of resources I've found valuable on my devOps Journey"
 ---
 
-# DevOps Resources
+## DevOps Resources
 
 I am frequently asked for resources to help people learn about devOps.  This is a collection of resources that have influenced my journey and thinking about DevOps. 
 

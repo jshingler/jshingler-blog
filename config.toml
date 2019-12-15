@@ -16,6 +16,7 @@ paginate = 10
 [menu]
 
 # Main menu
+# tag::menu[]
 
 [[menu.main]]
     identifier="home"
@@ -74,6 +75,10 @@ paginate = 10
     url = "mailto:shinglerjim@gmail.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
+# end::menu[]
+
+
+# end::features[]
 [params]
     # Custom CSS
     custom_css = ["css/custom.css"]
@@ -194,3 +199,5 @@ paginate = 10
     enable = true
     title = "Jim Shingler blog"
     subtitle = "Thoughts on: Technical, Professional, and Personal Development"
+
+# end::features[]

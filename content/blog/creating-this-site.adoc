@@ -130,13 +130,17 @@ The universal theme is pretty robust, ... It has a lot of features that I really
 hugo server -D
 ```
 
-Dash D, ```-D```, allows draft content to be servered,  Not check it out http://localhost:1313
+Dash D, ```-D```, allows draft content to be servered,  Now, check it out http://localhost:1313
 
 #### Add Content
 
 ```source,bash
 hugo new blog/creating-this-site.adoc
 ```
+
+// JLS TODO:
+// Show very basic adoc and formating issues
+// Explain how to use CSS to fix
 
 ### Publish to Github
 
@@ -237,4 +241,7 @@ https://rgielen.net/posts/2019/creating-a-dockerized-hugo-asciidoctor-toolchain/
 
 Test Includes
 
-include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/config.toml[]
+```source,linenums
+include::https://raw.githubusercontent.com/jshingler/jshingler-blog/master/config.toml[tag=features]
+```
+
