@@ -78,7 +78,7 @@ paginate = 10
 # end::menu[]
 
 
-# end::features[]
+# tag::features[]
 [params]
     # Custom CSS
     custom_css = ["css/custom.css"]
