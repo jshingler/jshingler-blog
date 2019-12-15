@@ -19,9 +19,11 @@
 
   <!-- Inside of the head element -->
 <!-- <link rel="stylesheet" href="{{ "css/prism.css" | relURL }}"> -->
+<!-- tag::customcss[] -->
 {{ range .Site.Params.custom_css -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
 {{- end }}
+<!-- end::customcss[] -->
 <!-- <link rel="stylesheet"
       href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css"> -->
 
