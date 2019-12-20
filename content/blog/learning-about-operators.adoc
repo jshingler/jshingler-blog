@@ -17,7 +17,7 @@ description: "Journey Learning about Kubernetes (K8s) Operators"
 
 *Status: Work In Process*
 
-During the holidays, Merry Christmas and Happy New Year, I take time to reflect on the previous year and focus on learning something.  2019 Holiday, one of the things I have decided to learn abou it Kubernetes Operators.
+During the holidays, Merry Christmas and Happy New Year, I take time to reflect on the previous year and focus on learning something.  2019 Holiday, one of the things I have decided to learn about is Kubernetes Operators.
 
 I am going to use this blog to record my learnings, thoughts, questions, and the resources I am using to learn.
 
