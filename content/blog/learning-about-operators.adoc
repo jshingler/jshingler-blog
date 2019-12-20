@@ -1,0 +1,35 @@
+---
+title: "Learning About Operators"
+date: 2019-12-20T10:44:24-05:00
+draft: true
+tags: ["kubernetes", "programming", "k8s", "operators", "go"]
+categories: ["programming"]
+banner: "img/blog/learning-about-operators/operator-logo.png"
+author: "Jim Shingler"
+description: "Journey Learning about Kubernetes (K8s) Operators"
+---
+
+:source-highlighter: prettify
+:icons: font                  
+:imagesdir-old: {imagesdir}   
+:imagesdir: ../../../../../img/blog/learning-about-operators
+---
+
+*Status: Work In Process*
+
+During the holidays, Merry Christmas and Happy New Year, I take time to reflect on the previous year and focus on learning something.  2019 Holiday, one of the things I have decided to learn abou it Kubernetes Operators.
+
+I am going to use this blog to record my learnings, thoughts, questions, and the resources I am using to learn.
+
+## Where I started
+
+Two Good Introductory Videos
+
+https://www.youtube.com/watch?v=8k_ayO1VRXE&feature=emb_rel_pause[Intro: Operator Framework BoF - Diane Mueller & Sebastian Pahl, Red Hat]
+
+video::8k_ayO1VRXE[youtube]
+
+
+https://www.youtube.com/watch?v=fu7ecA2rXmc[Deep Dive: Operator Framework BoF - Diane Mueller & Sebastian Pahl, Red Hat]
+
+video::fu7ecA2rXmc[youtube]
