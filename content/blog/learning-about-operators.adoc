@@ -23,7 +23,7 @@ I am going to use this blog to record my learnings, thoughts, questions, and the
 
 ## Where I started
 
-Two Good Introductory Videos
+Two Good Introductory Videos from KubeCon 2018:
 
 https://www.youtube.com/watch?v=8k_ayO1VRXE&feature=emb_rel_pause[Intro: Operator Framework BoF - Diane Mueller & Sebastian Pahl, Red Hat]
 
@@ -33,3 +33,11 @@ video::8k_ayO1VRXE[youtube]
 https://www.youtube.com/watch?v=fu7ecA2rXmc[Deep Dive: Operator Framework BoF - Diane Mueller & Sebastian Pahl, Red Hat]
 
 video::fu7ecA2rXmc[youtube]
+
+https://www.youtube.com/watch?v=JHmWRBWPKog[Collecting Operational Metrics for a Cluster with 5,000 Namespaces - Rob Szumski & Chance Zibolski]
+video::JHmWRBWPKog[youtube]
+
+
+- https://github.com/operator-framework[Operator Framework]
+- https://github.com/operator-framework/getting-started[Getting Started]
+- https://groups.google.com/forum/#!forum/operator-framework[Google Group Operator Framwork]

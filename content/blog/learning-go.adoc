@@ -1,0 +1,24 @@
+---
+title: "Learning Go"
+date: 2019-12-20T15:26:48-05:00
+draft: true
+tags: ["programming",  "go"]
+categories: ["programming"]
+banner: "img/blog/learning-go/golang-gopher.jpeg"
+author: "Jim Shingler"
+description: "Journey Learning about Go"
+---
+
+Online:
+
+- Udemy: Learn How To Code: Google's Go (golang) Programming Language
+
+Reference:
+
+- https://golang.org/[GoLang]
+- https://godoc.org/[Go Docs]
+
+Topics:
+
+- https://medium.com/@zach_4342/dependency-injection-in-golang-e587c69478a8[Go Dependency Injection(DI)]
+

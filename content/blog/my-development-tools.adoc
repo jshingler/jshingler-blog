@@ -1,0 +1,41 @@
+---
+title: "My Development Tools"
+date: 2019-12-23T13:21:13-05:00
+draft: false
+ags: ["programming",  "tools"]
+categories: ["programming"]
+banner: "img/blog/my-development-tools/toolbox.png"
+author: "Jim Shingler"
+description: "Development Tools on my mackbok pro"
+---
+
+In this blog, I will describe the development setup on my mac book pro.
+
+System MacBook Pro:
+
+- MacBook Pro (Retina, 15-inch Late 2013)
+- Processor 2.6 Ghz Quad-Core Intel Core i7
+- Memory 16 GB 1600 Mhz DDR3
+
+Tools:
+
+
+- https://docs.docker.com/docker-for-mac/install/[Docker for Mac]
+- https://iterm2.com/[iTerm2]
+- https://ohmyz.sh/[OhMyZsh]
+- https://sdkman.io/[SDKMan]
+- https://adoptopenjdk.net/[Java 11] (installed and managed by SDKMan)
+- https://gradle.org/[Gradle] (installed managed by SDKMan)
+- https://code.visualstudio.com/[VS Code]
+- npm
+- NodeJS
+
+    Plugins:
+
+- https://www.jetbrains.com/idea/[IntelliJ]
+
+    Plugins:
+
+
+
+
