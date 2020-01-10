@@ -42,13 +42,14 @@ jobs:
         git status
         cd public
         git add .
+        echo ${{ blog-publish }}
         git status
         git commit -m "Publish artifacts: `date`"
         git status
     - name: Push changes jshingler.github.io Master
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.blog-publish }}
+        github_token: ${{ blog-publish }}
         repository: jshingler/jshingler.github.io
         branch: master
         directory: public
