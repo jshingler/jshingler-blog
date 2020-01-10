@@ -35,16 +35,16 @@ jobs:
     #     PUBLISH_DIR: ./public
 
     - name: Prepare to push generated artifacts back to the repo
-        run: |
-          ls -la
-          git config --global user.email "shinglerjim@gmail.com"
-          git config --global user.name "Jim Shingler"
-          git status
-          cd public
-          git add .
-          git status
-          git commit -m "Publish artifacts: `date`"
-          git status
+      run: |
+        ls -la
+        git config --global user.email "shinglerjim@gmail.com"
+        git config --global user.name "Jim Shingler"
+        git status
+        cd public
+        git add .
+        git status
+        git commit -m "Publish artifacts: `date`"
+        git status
     - name: Push changes jshingler.github.io Master
       uses: ad-m/github-push-action@master
       with:
