@@ -42,7 +42,7 @@ jobs:
         git status
         cd public
         git add .
-        echo ${{ blog-publish }}
+        # echo ${{ blog-publish }}
         git status
         git commit -m "Publish artifacts: `date`"
         git status
