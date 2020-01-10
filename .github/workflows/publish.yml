@@ -45,10 +45,10 @@ jobs:
           git status
           git commit -m "Publish artifacts: `date`"
           git status
-      - name: Push changes jshingler.github.io Master
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository: jshingler.github.io
-          branch: master
-          directory: public
+    - name: Push changes jshingler.github.io Master
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        repository: jshingler.github.io
+        branch: master
+        directory: public
