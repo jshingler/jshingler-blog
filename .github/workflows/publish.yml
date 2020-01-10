@@ -48,7 +48,7 @@ jobs:
     - name: Push changes jshingler.github.io Master
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.publish-blog }}
         repository: jshingler/jshingler.github.io
         branch: master
         directory: public
