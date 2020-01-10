@@ -51,8 +51,11 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        INPUT_GITHUB_TOKEN: ${{ secrets.blog-publish}}
         repository: jshingler/jshingler.github.io
         branch: master
         directory: public
       env:
         github_token: ${{ secrets.blog-publish}}
+        INPUT_GITHUB_TOKEN: ${{ secrets.blog-publish}}
+
