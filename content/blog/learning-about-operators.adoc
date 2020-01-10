@@ -41,3 +41,10 @@ video::JHmWRBWPKog[youtube]
 - https://github.com/operator-framework[Operator Framework]
 - https://github.com/operator-framework/getting-started[Getting Started]
 - https://groups.google.com/forum/#!forum/operator-framework[Google Group Operator Framwork]
+
+
+Resources:
+
+- https://kodekloud.com/p/docker-for-the-absolute-beginner-hands-on[FREE: Docker for the absolute beginner]
+- https://www.udemy.com/course/certified-kubernetes-application-developer/[Udemy: Certified Kubernetes Application Developer]
+- https://kube.academy[FREE: Kube Academy]
