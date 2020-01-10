@@ -54,3 +54,5 @@ jobs:
         repository: jshingler/jshingler.github.io
         branch: master
         directory: public
+      env:
+        github_token: ${{ secrets.blog-publish}}
