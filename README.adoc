@@ -1,4 +1,6 @@
-[![Actions Status](https://github.com/jshingler/jshingler-blog/publish/badge.svg)](https://github.com/jshingler/jshingler-blog/actions)
+[![Actions Status](https://github.com/jshingler/jshingler-blog/workflows/publish/badge.svg)](https://github.com/jshingler/jshingler-blog/actions)
+
+[![Actions Status](https://github.com/jshingler/TOS-and-Thinkscript-Snippet-Collection/workflows/CI/badge.svg)](https://github.com/jshingler/TOS-and-Thinkscript-Snippet-Collection/actions)
 
 # jshingler.github.io
 
