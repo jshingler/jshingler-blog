@@ -37,6 +37,8 @@ jobs:
     - name: Prepare to push generated artifacts back to the repo
       run: |
         ls -la
+        echo "---------"
+        ls -la public
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
         git status
