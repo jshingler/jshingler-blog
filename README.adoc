@@ -1,4 +1,4 @@
-![Actions Status](https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg)
+![](https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg)
 
 https://github.com/jshingler/jshingler-blog/actions
 
