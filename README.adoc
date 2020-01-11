@@ -1,6 +1,6 @@
 # jshingler.github.io
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat]( https://octodex.github.com/images/yaktocat.png )
 
 This is the repo that generates http://jshingler.github.io, a Static Website / Blog Hosted on github.
 
