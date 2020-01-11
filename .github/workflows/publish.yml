@@ -40,6 +40,8 @@ jobs:
         echo "Current Dir: `pwd`"
         echo "AsciiDoctor Logation: `which asciidoctor`"
         echo "PATH: " $PATH
+        export PATH=`pwd`:$PATH
+        echo "PATH2: " $PATH
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
         git status
