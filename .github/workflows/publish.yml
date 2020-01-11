@@ -36,6 +36,7 @@ jobs:
 
     - name: Prepare to push generated artifacts back to the repo
       run: |
+        set -x
         ls -la
         echo "---------"
         ls -la public
@@ -45,12 +46,15 @@ jobs:
         git status
         cd ./public
         pwd
-        echo "get add"
+        echo "git add"
         git add .
         echo "---------"
         # echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        echo "git status"
         git status
+        echo "git commit"
         git commit -m "Publish artifacts: `date`"
+        echo "git status"
         git status
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
