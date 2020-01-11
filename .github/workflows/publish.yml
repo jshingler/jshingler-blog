@@ -38,23 +38,23 @@ jobs:
       run: |
         set -x
         ls -la
-        echo "---------"
+        echo "1---------"
         ls -la public
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
-        echo "git status"
+        echo "1 status"
         git status
         cd ./public
         pwd
-        echo "git add"
+        echo "1git add"
         git add .
-        echo "---------"
+        echo "2---------"
         # echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        echo "git status"
+        echo "2git status"
         git status
-        echo "git commit"
+        echo "2git commit"
         git commit -m "Publish artifacts: `date`"
-        echo "git status"
+        echo "3git status"
         git status
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
