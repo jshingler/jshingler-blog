@@ -14,6 +14,8 @@ description: "This tutorial will show you how I created this site. It will use H
 :imagesdir-old: {imagesdir}   
 :imagesdir: ../../../../../img/blog/creating-this-site 
 
+test
+
 While I am not new to blogging, I was re-inspired by https://www.linkedin.com/in/sasiperi/[Sasi Peri], a coworker, and her new https://sasiperi.github.io/[blog].  This gave me the itch to share my experiences and information with hope of helping others..
 
 Now that I was re-inspired to blog, I had a fortunate conversation with https://www.linkedin.com/in/andrew-heintz-93821513a/[Drew Heintz].  Drew is a bright young man finishing up his Computer Science and Security degrees from https://rit.edu[RIT].  Drew, shared with me that he did his resume using https://gohugo.io[Hugo].  Hugo is similar to https://github.com/jekyll[jekyll static site generator] only written in https://golang.org[go] instead of https://ruby-lang.org[ruby].
