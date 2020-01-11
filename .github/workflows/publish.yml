@@ -43,7 +43,7 @@ jobs:
         cd public
         git add .
         echo "---------"
-        echo ${{ secrets.blog-publish }}
+        echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
         git status
         git commit -m "Publish artifacts: `date`"
         git status
