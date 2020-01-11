@@ -49,7 +49,6 @@ jobs:
         echo "1git add"
         git add .
         echo "2---------"
-        # echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
         echo "2git status"
         git status
         echo "2git commit"
