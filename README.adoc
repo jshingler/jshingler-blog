@@ -1,5 +1,4 @@
-[![Actions Status](https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg)](https://github.com/jshingler/jshingler-blog/actions)
-
+image::https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg[link=https://github.com/jshingler/jshingler-blog/actions]
 # jshingler.github.io
 
 This is the repo that generates http://jshingler.github.io, a Static Website / Blog Hosted on github.
