@@ -1,9 +1,3 @@
-![](https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg)
-
-https://github.com/jshingler/jshingler-blog/actions
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
 # jshingler.github.io
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
