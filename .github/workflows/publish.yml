@@ -48,7 +48,7 @@ jobs:
         echo "get add"
         git add .
         echo "---------"
-        echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        # echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
         git status
         git commit -m "Publish artifacts: `date`"
         git status
