@@ -6,6 +6,8 @@ https://github.com/jshingler/jshingler-blog/actions
 
 # jshingler.github.io
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 This is the repo that generates http://jshingler.github.io, a Static Website / Blog Hosted on github.
 
 I was inspired by https://www.linkedin.com/in/andrew-heintz-93821513a[Drew Heintz's] work in generating his resume using https://gohugo.io/[Hugo] and
