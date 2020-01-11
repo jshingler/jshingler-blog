@@ -1,11 +1,4 @@
-image::https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg[Publish Status]
-
-https://github.com/jshingler/jshingler-blog/actions
-
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
-
-
-
+image::https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg[link=https://github.com/jshingler/jshingler-blog/actions]
 # jshingler.github.io
 
 ![Image of Yaktocat]( https://octodex.github.com/images/yaktocat.png )
