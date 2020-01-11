@@ -1,6 +1,6 @@
-[![JIM](https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg)]
+![Actions Status](https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg)
 
-[![Actions Status](https://github.com/jshingler/jshingler-blog/workflows/Publish/badge.svg)](https://github.com/jshingler/jshingler-blog/actions)
+https://github.com/jshingler/jshingler-blog/actions
 
 # jshingler.github.io
 
