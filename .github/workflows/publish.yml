@@ -38,7 +38,7 @@ jobs:
       run: |
         #set -x
         echo "AsciiDoctor Logation: `which asciidoctor`"
-        ehco "PATH: " + $PATH
+        echo "PATH: " + $PATH
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
         git status
