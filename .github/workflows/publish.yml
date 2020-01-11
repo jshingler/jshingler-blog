@@ -41,8 +41,11 @@ jobs:
         ls -la public
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
+        echo "git status"
         git status
-        cd public
+        cd ./public
+        pwd
+        echo "get add"
         git add .
         echo "---------"
         echo ${{ secrets.ACTIONS_DEPLOY_KEY }}
