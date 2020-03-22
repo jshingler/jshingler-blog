@@ -28,7 +28,11 @@ jobs:
         hugo-version: '0.62.0'
 
     - name: Build
-      run: hugo
+      run: |
+        echo "START HUGO BUILD"
+        export PATH=`pwd`:$PATH
+        echo "PATH2: " $PATH
+        hugo
 
     # - name: Deploy
     #   uses: peaceiris/actions-gh-pages@v2
