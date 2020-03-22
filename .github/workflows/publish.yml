@@ -45,6 +45,8 @@ jobs:
         echo "PATH: " $PATH
         export PATH=`pwd`:$PATH
         echo "PATH2: " $PATH
+        ls -la
+        which asciidoctor
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
         git status
