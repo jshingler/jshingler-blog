@@ -1,6 +1,2 @@
 #!/bin/bash
-set -ex
-echo "====================="
-echo " Jim's Asciidoctor"
-echo "====================="
 /usr/local/bin/asciidoctor -a allow-uri-read $*
