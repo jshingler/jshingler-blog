@@ -1,0 +1,7 @@
+applications:
+  - name: blog
+    memory: 256M
+    path: public
+    buildpacks:
+      - staticfile_buildpack
+
