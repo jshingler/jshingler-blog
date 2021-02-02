@@ -1,0 +1,88 @@
+---
+title: "Obs Virtual Cables"
+date: 2021-01-31T21:28:30-05:00
+draft: false
+ags: ["OBS",  "tools"]
+categories: ["OBS"]
+banner: "img/blog/obs-virtual-cables/OBS.png"
+author: "Jim Shingler"
+description: "Send OBS Sound to Zoom and Teams"
+---
+
+:icons: font                  
+:imagesdir-old: {imagesdir}   
+:imagesdir: ../../../../../img/blog/obs-virtual-cables 
+
+
+image::OBS.png[width=25%, height=25%, OBS]
+
+
+During covid, we all find ourselves on Zoom and Teams meetings doing presentations.  
+
+Using standard Zoom and Teams, you share your slide deck and narrate it as https://www.juddsolutions.com/index.html[Chris Judd] says, "as a disemboded voice."  It isn't very engaging.
+
+Chris Judd introduce me to https://obsproject.com/[OBS - Open Broadcaster Software].  OBS really is an amazing piece of softare.  If you watch youtube or twitch, they are probably using OBS to make their streams.  I will create a separte blog on the resources and people I used to learn OBS.
+
+NOTE: I am using MacOS Catalina and OBS Studio 26.1.2
+
+The first thing I focused on was getting a good setup:
+
+- https://www.logitech.com/en-us/products/webcams/c920-pro-hd-webcam.960-000764.html[Logitch C920]
+- https://www.amazon.com/gp/product/B01D52YWHG/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1[Green Screen]
+- https://www.amazon.com/gp/product/B07T8FBZC2/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1[Neewer Lights]
+- https://www.bluemic.com/en-us/products/yeti-x/[Blue Yeti]
+
+Once everything was up and running, I got it connected to Zoom and Teams (The subject of another post).
+
+In my office, I have an air purifier and heater.  That caused a back ground noise problem.  OBS Audio Filters to the rescue.
+
+- Noise Suppression
+- Noise Gate
+- EQ (https://www.meldaproduction.com/MFreeFXBundle[Melda Production)]
+- Compressor
+- Limiter
+
+This worked great and my test recordings were very clean.  But, I found people on the meetings were still hearing a lot of noise.  *How could that be?*  Well Duh, ... Zoom and Teams were just using my microphone directly, none of the audio filters were being used.
+
+The question is how do you connect the OBS audio output to Zoom and Teams.
+
+## Virtual Audio Cables
+
+https://obsproject.com/forum/threads/virtual-audio-cable-for-zoom.125072/[Research] lead me to https://vb-audio.com/Cable/[Virtual Audio Cables].  The rest of this post details how to hook it up.  I hope to save you a little time.
+
+### 1) Install the Virtual Audio Cables
+
+Download and install the VB-Cables https://download.vb-audio.com/Download_CABLE/VBCABLE_Driver_Pack43.zip[Windows]  https://download.vb-audio.com/Download_MAC/VBCable_MACDriver_Pack107.dmg[Mac]
+
+### 2) Configure Default Monitor
+It took me a little bit to find this one.
+
+Settings > Audio > Advanced > Monitoring Device
+
+.OBS Audio Monitoring Device
+image::obs-audio-monitoring-device.jpg[OBS Audio Monitoring Device]
+
+
+### 3) Set Microphone Advanced Properties
+
+Microphone > Advanced Audio Properties > Mic / Aux > Monitor and Output
+
+
+.OBS Advanced Audio Properties
+image::obs-advanced-audio-properties.jpg[OBS Advanced Audio Properties]
+
+### 4) Configure Zoom Device Settings
+
+.Zoom Audio Settings
+image::zoom-audio-settings.jpg[Zoom Audio Settings]
+
+### 5) Configure Teams Device Settings
+
+.MS Teams Devices Settings
+image::teams-devices.jpg[MS Teams Devices Settings]
+
+
+## Notes
+Today, I had something strange happen, ... my audio stopped working during a meeting.  I quickly changed back to using the Blue Yeti directly.  I am not sure what happend and will research and update the blog post appropriately.
+
+
