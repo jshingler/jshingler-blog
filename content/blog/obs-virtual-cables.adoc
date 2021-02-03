@@ -21,7 +21,7 @@ During covid, we all find ourselves on Zoom and Teams meetings doing presentatio
 
 Using standard Zoom and Teams, you share your slide deck and narrate it as https://www.juddsolutions.com/index.html[Chris Judd] says, "as a disemboded voice."  It isn't very engaging.
 
-Chris Judd introduce me to https://obsproject.com/[OBS - Open Broadcaster Software].  OBS really is an amazing piece of softare.  If you watch youtube or twitch, they are probably using OBS to make their streams.  I will create a separte blog on the resources and people I used to learn OBS.
+Chris Judd introduce me to https://obsproject.com/[OBS - Open Broadcaster Software].  OBS really is an amazing piece of software.  If you watch youtube or twitch, they are probably using OBS to make their streams.  I will create a separte blog on the resources and people I used to learn OBS.
 
 NOTE: I am using MacOS Catalina and OBS Studio 26.1.2
 
