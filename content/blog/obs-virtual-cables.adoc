@@ -85,4 +85,5 @@ image::teams-devices.jpg[MS Teams Devices Settings]
 ## Notes
 Today, I had something strange happen, ... my audio stopped working during a meeting.  I quickly changed back to using the Blue Yeti directly.  I am not sure what happend and will research and update the blog post appropriately.
 
+Update:  System reboot seemed to get everything working again.
 
