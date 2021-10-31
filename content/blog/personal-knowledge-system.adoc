@@ -1,0 +1,62 @@
+---
+title: "Personal Knowledge System"
+date: 2021-10-30T20:11:37-04:00
+draft: false
+tags: ["PKM"]
+categories: ["General"]
+author: "Jim Shingler"
+description: "My Personal Knowledge Management System"
+banner: "img/banners/PKM.jpeg"
+---
+
+:icons: font                  
+:imagesdir-old: {imagesdir}   
+:imagesdir: ../../../../../img/blog/personal-knowledge-system/
+
+image::PKM.jpeg[width=25%, height=25%, OBS]
+
+[quote, August Bradley, Life Design]
+Operating with "Structural Integrity" is required to be a breakout performer
+
+I have always been a attracted to Personal Improvement.  From the earlies days of my career, I kept a personal 
+journal of my experiences, problems encoutered, and ways to solve the problem.  Whenever I figured something out,
+I wrote it down for my future self.  
+
+As I progressed in my career and had more and more demands, my existing systems of keeping track of everything started failing.
+I had stuff slipping through the cracks.  UGH!!!
+
+In the past, I have read David Allen's book https://gettingthingsdone.com/["Getting Things Done"]. This is one of the earliest books I read on Personal Productivity and Improvement.  I really liked the ideas and advice but was never able to really stick with it.  https://www.linkedin.com/in/rjcarpenterjr/[Ron Carpenter], a co-worker, recommended Michael Hyatt's book https://freetofocus.com/["Free to Focus"].  This book has a ton of great advice and helped me with strategies to manage my work load and calendar.  I have been pretty pleased with the results.  There is a corresponding planner based system.  I did this for a while and it worked pretty well.  The issue I had was that in today's super busy world, it was manually intense and took a lot of time.  So you tube to the rescue.
+
+While looking for ideas I stumbled across Tiago Forte's work, https://www.buildingasecondbrain.com/["Building a Second Brain (BASB)"].  For a couple of weeks, I watched every video and read every article I could find.
+
+About this time, I ran across https://www.youtube.com/c/JeffSu[Jeff Su's YouTube Channel].  His explaination of https://www.youtube.com/watch?v=9ql1CQfxWxQ["Inbox Zero"] was a game changer.   He explained it in a way that makes a ton of sense.  With a little bit of effort, I was able to apply the idea to both Gmail and Outlook work email, WIN!!!
+
+
+And then a very fortune accident, I discovered August Bradley's https://www.youtube.com/watch?v=4-TYSah25UM["My Notion Life Operating System Overview"] work on YouTube.
+
+image::PPV.png[link="https://www.youtube.com/channel/UCfqj2oq6LVmR3ybC2nfjqKg", PPV]
+
+*BINGO*, .... This was it, ... It was *Exactly what I was looking for*.
+
+August's https://www.youtube.com/channel/UCfqj2oq6LVmR3ybC2nfjqKg[Pillars, Pipelines, and Vaults (PPV)] Youtube Channel is a gold mine of material.  It is obvious that August has spent a good deal of time thinking about Personal Productivity and Knowledge Management.  August takes a Whole Life Systemic approach, applying "Systems Thinking" to all aspects of your life.   August implemented the PPV Life Operating System using http://Notion.so[Notion] and shares Notion Templates that are the core of the system.  BTW, Notion is availble and a web app, and app on most systems.
+
+[quote, Jim Shingler]
+I can't say enough good about about August Bradley's Notion Life Operating System.  It has brought me peace of mind.  Thank You August.
+
+PPV on Notion is my Cheat.  It is my knowledge base.  I wish I had this years ago.  It covers all aspects of your life (Family, Friends, Career, Personal Goals and Outcomes); includes the required habits, processes, and routines; and eliminates the manual work of my previous approaches.  And Now, we have the Notion API, Oh My!  PPV can be integrated with your other tools and processes.
+
+Hopefully, you are interested enough to invest in yourself and spend sometime learning from August Videos.
+
+Below is a list of Notion Life Operating Systems Video you should peruse and learn from.
+
+https://www.youtube.com/playlist?list=PLAl0gPKnL3V8s7dPXoo07mYnuErhWVk8b[PPV Youtube Play List]
+
+
+### Bonus Resources:
+* https://www.youtube.com/c/RedGregory[Red Gregory]
+* https://www.youtube.com/playlist?list=PLx65qkgCWNJJrHB-nLdOvTTUOM4xEo4dZ[Thomas Franks Explains Notion]
+* https://thomasjfrank.com/fundamentals/[Thomas Franks Notion Fundamentals]
+* https://www.youtube.com/watch?v=O8TzmWQTLx4[4 Inbox Zero Best Practices (for Gmail) - Jeff Su]
+
+
+

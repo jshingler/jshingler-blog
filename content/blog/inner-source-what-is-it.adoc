@@ -1,0 +1,96 @@
+---
+title: "Inner Source, What you need to know"
+date: 2021-02-06T14:24:05-05:00
+draft: true
+ags: ["Inner Source"]
+categories: ["Inner Source", "What you need to know"]
+banner: "img/blog/inner-source-what-is-it/innersourcelogo.png"
+author: "Jim Shingler"
+description: "Inner Source, What is it?"
+---
+
+:icons: font                  
+:imagesdir-old: {imagesdir}   
+// :imagesdir: ../../../../../img/blog/inner-source-what-is-it
+:imagesdir: ../../static/img/blog/inner-source-what-is-it
+
+
+image::innersourcelogo.png[width=25%, height=25%, OBS]
+
+## Inner Source (Inner Sourcing) - What you need to know
+
+The IT solutions we build today are a complex, sophisticated, weaving of components and remote / external dependencies.  Medium, Large, and Mega corporations are filled with reoccurring logic, processes, and services that are wastefully reinvented and duplicated.  This results in teams spending too much time focusing on undifferentiated, mundane work below the value line, instead of creating true business value that delights their customers.
+
+image::angrydeveloper.jpg[width=25%, height=25%, Angry Developer]
+
+A common approach to this is to centralize the commonality in a shared service team charged with meeting needs for everyone.  When you first do this and only have a couple of customers, ... it works well.  But, success brings the next set of challenges.  Every customer team has different priorities and wants more.  And shared services teams are always pressured to control costs (headcount). Pretty soon, your customers aren't happy because they can't get the new capabilities in the time frame  they need.
+
+### Now What?  . . . Inner Source / Inner Sourcing to the rescue
+
+image::tim-oreilly.jpg[width=25%, height=25%, Tim O'Reilly]
+
+*InnerSource, Inner Source (or Inner Sourcing)* is a term coined by Tim O’Reilly in 2000 as "the use of open source principles and practices inside proprietary organizations.  footnote:[https://www.fosslife.org/introduction-innersource[An Introduction to InnerSource]]
+
+I define it as "the best practices and principles of *open source development and community* applied with in the four walls of the corporation".
+
+Sounds easy right, ... Well it ain't as easy as it sounds.  It isn't magic, and the importance of community, communication, maintainers, defined policies, and practices can't be over emphasized.
+
+When you stop and think about it, how can one reasonably expect a well intentioned centralized shared service team to be able to quench the thirst of all development teams for a corporation.
+
+The solutions is to build a system of people across the corporation collaborating and working together to design and implement a solution.  The astute reader has probably already realized, the largest challenge isn't a technology problem, it is a great time to be alive, we have plenty of technology.  It is a people process problem.
+
+This is where we need to leverage the lessons form Open Source and apply them within the company.  What are the Open Source lessons we can apply.
+
+.  Create a compelling vision of your "inner source" product
+.  Develop a customer community 
+.  Use customer-focused Product Thinking and Organizational Change Management 
+.  Core group of Maintainers
+.  Define the products Development Process
+.  Recruite committers
+.  Communicate, communicate, communicate
+
+
+Organization Change Management
+
+
+image::artofcommunity.jpg[link="https://drive.google.com/file/d/1EI6YcKlTdzojLD4RdVjYVlmFRTNzzge0/view", The Art of Community]
+
+https://drive.google.com/file/d/1EI6YcKlTdzojLD4RdVjYVlmFRTNzzge0/view
+
+NOTES:
+- "If you are thinking about Inner Source, you have to think about Software Architecture as well"
+- Linus Talvoids "I couldn't have build a new windows kernel even if I had all of the source code, .." the architecture just wouldn't allow it. because of software architecture Book Open Sources
+- Not about Software Licenses
+- Why and How to Modularize code
+- Break Silos
+- ASP .NET started as inner source project over a holiday weekend
+- Already doing it just dont know it
+- Open Source "Scratching your own itch" - Eric Almand
+- Freedom
+- Microsoft driving inner source internallly, ... Apache people they hired
+- Digital Natives expect agency
+- Comcast is learning Inner Source
+- Inner Source before Open Source
+
+Linus’ Law, “Given enough eyeballs, all bugs are shallow.” I propose a corollary, which we might call Scott’s Law, or The Law of Innersourcing: “Given enough connected developers, all software development emulates the best practices of Open Source software.”
+
+philosophy of human relations
+
+Communication is key, communication overhead
+
+Inner Sourcing: https://web.archive.org/web/20171014101536/http:/archive.oreilly.com/pub/a/oreilly/ask_tim/2000/opengl_1200.html
+
+
+
+
+## Additional Resources
+- https://www.fosslife.org/introduction-innersource[An Introduction to InnerSource]
+- http://innersourcecommons.org/[InnerSource Commons]
+- https://www.slideshare.net/jimjag/innersource-101-and-the-apache-way[Inner Source 101 and The Apache Way]
+- https://opensource.guide/[Open Source Guides]
+- https://resources.github.com/whitepapers/introduction-to-innersource/[An Introduction to Inner Source]
+- https://blog.bitergia.com/2016/07/26/innersourcing-the-development-model-of-the-future/[InnerSourcing: the development model of the future?]
+- https://www.oreilly.com/library/view/adopting-innersource/9781492041863/ch01.html[Adopting InnerSource]
+- https://paypal.github.io/InnerSourceCommons/assets/files/AdoptingInnerSource.pdf[Adopting InnerSource PDF]
+
+
