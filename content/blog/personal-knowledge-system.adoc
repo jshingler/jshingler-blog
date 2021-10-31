@@ -52,7 +52,7 @@ Below is a list of Notion Life Operating Systems Video you should peruse and lea
 https://www.youtube.com/playlist?list=PLAl0gPKnL3V8s7dPXoo07mYnuErhWVk8b[PPV Youtube Play List]
 
 
-### Bonus Resources:
+## Bonus Resources:
 * https://www.youtube.com/c/RedGregory[Red Gregory]
 * https://www.youtube.com/playlist?list=PLx65qkgCWNJJrHB-nLdOvTTUOM4xEo4dZ[Thomas Franks Explains Notion]
 * https://thomasjfrank.com/fundamentals/[Thomas Franks Notion Fundamentals]
