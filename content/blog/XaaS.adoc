@@ -36,7 +36,8 @@ How do you continue the movement to the cloud?
 
 Factors to be considered:
 
-* Organizational Change Management Security
+* Organizational Change Management 
+* Security
 * Flexibility
 * Velocity (Speed)
 * Cost
@@ -192,14 +193,123 @@ IaaS can be thought of as running solutions in the cloud providers data center i
 
 ### CaaS
 
+CaaS is the next level of Virtualization. Virtual machines have complete copies of an operating system and run on a hypervisor. Virtual Machines use significantly more resources compared to Container Technology. Containers share an underlying OS Kernal and contain only the minimum additional components. Containers are typically much lighter weight and faster compared to virtual machines,
+
+*Benefits:*
+
+* Scalability 
+* Flexibility 
+* Resource Usage
+
+*Workloads:*
+
+* Containerized Legacy Monoliths
+* Commercial Products
+* If not already containerized will they?
+* Open Source Products
+    If not should we containerize it, do we want to contribute to the product?
+** Redis
+** Kafka
+** Rabbit MQ 
+** DevSecOps Tools:
+*** Concourse / Jenkins / Github Actions  / GitLab
+*** Binary Repo (Nexus) Container Repo (Harbor, Clair) SonarQube
+
+*Implications:*
+
+* Very little process improvements without additional efforts 
+* Automation and Consistency require additional efforts 
+* Skills Uplift: (Development and Platform Teams)
+** Cloud Vendor Specific tooling and processes
+** Automation tooling
+** Container Technology (Docker)
+** Container Specification and Orchestration Technology (Kubernetes) 
+** Network (Development Team)
+** Security (Development Team) 
+* Additional supporting efforts required for success 
+* Roles and Responsibility Clarification
+* What is Development Teams Responsibility?
+
 ### PaaS
+
+PaaS is an opinionated Application Infrastructure Framework that enable Development Speed. While opinionated, PaaS is still relatively flexible.
+ 
+WARNING:  Not all PaaSs are equal. PaaSs offer a variety of capabilities and restrictions. For Example: PCF offers additional value added capabilites overy Open Source Cloud Foundry.
+
+*Benefits:*
+
+* Developer Experience and Effectiveness
+* Very low barrier of development entry
+* Development isn't required to learn Networking and Infrastructure 
+* Scalability
+* Self-Service
+* Easy to use
+
+*Workloads:*
+
+* Customer Development Business Services
+* Web Frontends
+* Batch
+* Event Processing
+
+*Implications:*
+
+* PCF has additional Licensing Costs
+* Lends itself to Automation, Consistency, and DevSecOps
+* Skills Uplift is relatively easy and focuses on Cloud Native Implementation
 
 ### FaaS
 
+FaaS is the Newest of the "aaS" solutions. FaaS further extends the capabilities and benefits of PaaS.
+
+ERROR: Additional Research and Monitoring recommended. KNative while still young shows a great degree of promise.
+
+*Benefits:*
+
+* TBD
+
+*Workloads:*
+
+* TBD
+
+*Implications:*
+
+* Many of the current FaaS solutions are vendor specific and cause vendor coupling.
+* TBD
+
+
 ### SaaS
 
+SaaS evolved out of Application Service Providers and is the most mature and well known of the "aaS"s.
+
+*Benefits:*
+
+* Operations handled by Vendor 
+* Standardize Solutions
+* Minimal Investment of Time and Money
+
+*Workloads:*
+
+* Anything NOT the Business Secret Sauce. 
+* Context Business Needs 6
+
+*Implications:*
+
+* Maybe completely Outsource 
+* Dont Generate Revenue 
+* Easily Replaced
+
 ### Where should I run my application 
+
+The below represents, at a high level, where an application should run in the cloud.
+
+<< Decision Tree >>
+
 ### When to CaaS Containerize
+
+Containers are the preferred approach for making application deployment and Dev/Ops fundamental to all applications and their teams. There are things to take into account when making your decision to modify your application to run in a container. Provided below is a decision tree to help with making this determination.
+
+<< Decision Tree >>
 
 ## Additional Considerations
 
