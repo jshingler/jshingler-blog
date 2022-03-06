@@ -13,6 +13,12 @@ googleAnalytics = "UA-154182389-1"
 # Define the number of posts per page
 paginate = 10
 
+# [markup]
+#   [markup.tableOfContents]
+#     endLevel = 3
+#     ordered = false
+#     startLevel = 2
+
 [menu]
 
 # Main menu

@@ -8,6 +8,10 @@ banner: "img/blog/XaaS/xaas.png"
 author: "Jim Shingler"
 description: "What is XaaS?"
 ---
+// :toc: macro
+// Set toclevels to be at least your hugo [markup.tableOfContents.endLevel] config key
+:toclevels: 4
+:sectnums:
 :source-highlighter: prettify
 :icons: font                  
 :imagesdir-old: {imagesdir}   
@@ -19,7 +23,16 @@ NOTE: I am trying something new.  I am going write this blog post in the open.  
 Cloud offers a variety of solutions and approaches: IaaS, CaaS, PaaS, FaaS, and SaaS.
 It isn't always clear which solutions and approaches are appropriate. The purpose of this paper is to clarify the approaches, their implications, appropriate usage, and confirm Intents.
 
-## Problem Statement
+// qwerqerwqre
+
+// toc::[]
+
+
+// {{ .TableOfContents }}
+
+
+
+== Problem Statement
 
 IT Solutions:
 
@@ -328,7 +341,8 @@ Containers are the preferred approach for making application deployment and Dev/
 
 ## Footnotes
 . https://www.yourdictionary.com/iaas#computer
-. https://www.techopedia.com/definition/32444/containers-as-a-service-caas 3. https://www.yourdictionary.com/paas#computer
+. https://www.techopedia.com/definition/32444/containers-as-a-service-caas 
+. https://www.yourdictionary.com/paas#computer
 . https://www.yourdictionary.com/serverless-computing#computer
 . https://www.yourdictionary.com/saas#computer
 . http://strategictoolkits.com/strategic-concepts/core-and-context/
