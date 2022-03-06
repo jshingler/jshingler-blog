@@ -15,7 +15,7 @@
   {{ $description_plain := default .Site.Params.defaultDescription .Description | markdownify | plainify }}
   <meta name="description" content="{{ $description_plain }}">
 
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
 
   <!-- Inside of the head element -->
 <!-- <link rel="stylesheet" href="{{ "css/prism.css" | relURL }}"> -->

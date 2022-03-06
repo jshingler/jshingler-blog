@@ -1,0 +1,223 @@
+---
+title: "XaaS"
+date: 2022-03-05T20:29:20-05:00
+draft: false
+tags: ["Cloud", "XaaS", "IaaS", "CaaS", "PaaS", "FaaS", "Saas", "programming"]
+categories: ["Cloud"]
+banner: "img/blog/XaaS/xaas.png"
+author: "Jim Shingler"
+description: "What is XaaS?"
+---
+:source-highlighter: prettify
+:icons: font                  
+:imagesdir-old: {imagesdir}   
+:imagesdir: ../../../../../img/blog/XaaS 
+
+NOTE: I am trying something new.  I am going write this blog post in the open.  I will start writing my thoughts and ideas, and you will bw able to see and comment on the blog as it is developed.  Your thoughts and questions will help me to improve the this post.
+
+## Abstract
+Cloud offers a variety of solutions and approaches: IaaS, CaaS, PaaS, FaaS, and SaaS.
+It isn't always clear which solutions and approaches are appropriate. The purpose of this paper is to clarify the approaches, their implications, appropriate usage, and confirm Intents.
+
+## Problem Statement
+
+IT Solutions:
+
+* Business IT
+* Custom Dev CloudNativemicroservices Legacy tightly coupled monoliths
+* Large scale Commercial Off The Shelf (COTS)
+** SAP
+** Sales Force 
+** Manhattan
+
+WARNING:  A clear direction and guide rails with reference architecture and implementations are required to avoid confusion, resolve competing direction and help the development teams move forward.
+
+How do you continue the movement to the cloud?
+
+Factors to be considered:
+
+* Organizational Change Management Security
+* Flexibility
+* Velocity (Speed)
+* Cost
+* Staffing
+* Skills Uplift
+* Business Partners and Contracts
+
+## Background
+Many companies have embarked on a Cloud Journey with the goal of moving as much compute to the cloud as possible. Your Company may be using  Amazon (AWS), Google (GCP), Microsoft (Azure), or multiple clouds.
+Frequently, the cloud journey is initiated with an Infrastructure as a Service (IaaS). 
+
+With the goal of simplicity and velocity, typically expands into Container as a Service (CaaS) approach using Docker, Kubernetes or some other Container Management solution. Around 2015,  Platform as a Service (PaaS) was introduced. Pivotal Cloud Foundry (PCF) is a leanding PaaS solution.
+
+With the goal of shutting down Traditional OnPrem Data Centers, Your company may start a  "Lift and Shift" of Virtual Machines in Data Centers to Cloud based IaaS.
+Your Company's usage of the cloud to date has largely been Infrastructure as a Service (IaaS), Cloud Services, and Software as a Service (SaaS).
+
+
+Definitions:
+
+* Traditional On Prem
+* IaaS - Infrastructure as a Service
+* CaaS - Container as a Service
+* PaaS - Platform as a Service
+* FaaS - Function as a Service (Serverless) 
+* SaaS - Software as a Service
+
+
+### Traditional OnPrem
+
+Traditional On Premise computing requires the company to take responsibility
+for sizing, acquiring, securing, and configuration of the Infrastructure (Servers, Networking Gear, and Physical Space). Once configured, the company is responsible for Operating the Infrastructure (Patching, Monitoring, Alerting, High Availability, Backup and Recovery, ...)
+
+WARNING:  While not the subject of this paper, an important consideration is the Total Cost of Ownership, Large initial cash outlay, and the OPEX VS CAPEX implications.
+  
+
+### IaaS - Infrastructure as a Service
+
+A cloud computing service that provides a basic computing platform, typically the hardware and virtual machine (VM) infrastructure (no operating system) or the hardware and an operating system. 1
+
+* AWS Amazon
+* GCP Google
+* Azure Microsoft 
+* ...
+
+### CaaS - Container as a Service
+Containers as a service (CaaS) is a cloud service model that allows users to manage and deploy containers, applications and clusters through container-based virtualization. CaaS is highly useful to IT departments and developers in
+building secure and scalable containerized applications. With CaaS, this can be achieved using on-premises data centers or over the cloud.
+
+CaaS provides an easy way to set up a container cluster. Orchestration, which essentially automates key IT functions, is an essential quality of CaaS
+technology. Google Kubernetes, Docker Swarm, Rackspace Carina and Apache Mesos are all examples of CaaS orchestration platforms. Some public cloud CaaS
+providers include Google, Amazon Web Services (AWS), Rackspace and IBM.
+
+CaaS is often considered to be a subset of IaaS (infrastructure as a service), but includes containers as its fundamental resource, as opposed to bare metal systems and virtual machines. 2
+
+Containers:
+
+* Docker
+* Rocket 
+* CRI-O 
+* ...
+
+Container Orchestration:
+
+* Docker Swarm 
+* Mesosphere 
+* Kubernetes 
+* ...
+
+### PaaS - Platform as a Service
+
+A cloud computing service that provides a comprehensive computing environment. PaaS includes the hardware, operating system, database and other necessary software for the execution of applications. It may include a complete
+development environment as well. PaaS is a step up from "infrastructure as a service" (IaaS), which provides only the servers and operating systems. 3
+
+* Cloud Foundry
+* Pivotal Cloud Foundry
+* BlueMix GE Predix
+* Heroku
+* Oracle Cloud 
+* OutSystems 
+* Mendix
+* Engine Yard 
+* Google App Engine 
+* ...
+
+### FaaS - Function as a Service (Serverless) 
+
+A cloud computing service in which the customer pays for each function executed rather than a full server or part of a server (a virtual machine) that may be
+idle periodically. For example, the time required to execute the code that updates a record in a database would be charged to the serverless computing customer.
+Servers are indeed used, but the term implies "function as a service" (FaaS) rather than "infrastructure as a service" (see IaaS) or "platform as a service" (see PaaS). 4
+
+* AWS Lambda
+* Google Cloud Functions 
+* Google Serverless 
+* Microsoft Azure Functions 
+* IBM Openwhisk
+* KNative
+* ...
+
+### SaaS - Software as a Service
+Software that is rented rather than purchased. Instead of buying applications and paying for periodic upgrades, SaaS is subscription based, and upgrades are automatic during the subscription period. When that expires, the software is no longer valid. Ideal for Cloud Computing SaaS can be implemented with local applications that expire after a certain time, but it is ideally suited for cloud computing and applications that run in any desktop or mobile device, no matter the OS. In this model, the applications are maintained in the provider's datacenter, and every time users launch their browsers or apps and log on, they get the latest version. In addition, user data can also be stored in the cloud. 5
+
+* GitHub 
+* Workday 
+* Service Now 
+* Sales Force 
+* Office 365 
+* SAP
+* ...
+
+## Why has been Answered
+
+* Speed to Market 
+* Speed to Revenue 
+* Accelerate Development velocity
+* Reduce Operational Overhead
+* Eliminate Infrastructure Bottlenecks (Self Service)
+
+## What and How
+
+
+The goal of this section is to examine the characteristics and implications of each aaS.
+
+WARNING: Traditional OnPrem will not be addressed in this post.
+
+image::xaas.png[XaaS]
+
+### IaaS
+
+IaaS can be thought of as running solutions in the cloud providers data center instead of our datacenter. The primary benefits are the near infinity ability to scale quickly.
+     
+*Benefits:*
+
+* Scalability 
+* Flexibility
+
+*Workloads:*
+
+* Virtual Machines
+* Database Server
+* Middleware
+* Uncontainerized Commercial Of The Shelf products 
+* Uncontainerized Legacy Monoliths
+
+*Implications:*
+
+* Very little process improvements without additional efforts 
+* Automation and Consistency require additional efforts 
+* Skills Uplift:
+** Cloud Vendor Specific tooling and processes
+** Automation tooling
+* Additional supporting efforts required for success
+* Minimal Application impacts (Our VMs vs Cloud Provider VMs)
+
+### CaaS
+
+### PaaS
+
+### FaaS
+
+### SaaS
+
+### Where should I run my application 
+### When to CaaS Containerize
+
+## Additional Considerations
+
+- Databases
+- ML / AI
+- Analytics & Reporting 
+- Security
+
+## Additional Resources
+- Container Wars
+- Kubernetes, Serverless, and You
+- Comparing Kubernetes to Pivotal Cloud Foundry
+- CaaS vs PaaS and Kubernetes vs PKS
+
+## Footnotes
+. https://www.yourdictionary.com/iaas#computer
+. https://www.techopedia.com/definition/32444/containers-as-a-service-caas 3. https://www.yourdictionary.com/paas#computer
+. https://www.yourdictionary.com/serverless-computing#computer
+. https://www.yourdictionary.com/saas#computer
+. http://strategictoolkits.com/strategic-concepts/core-and-context/
+
