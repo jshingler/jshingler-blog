@@ -24,7 +24,9 @@ It isn't always clear which solutions and approaches are appropriate. The purpos
 IT Solutions:
 
 * Business IT
-* Custom Dev CloudNativemicroservices Legacy tightly coupled monoliths
+* Custom Dev 
+* Cloud Native microservices 
+* Legacy tightly coupled monoliths
 * Large scale Commercial Off The Shelf (COTS)
 ** SAP
 ** Sales Force 
