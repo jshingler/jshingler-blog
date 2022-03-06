@@ -20,7 +20,7 @@ description: "What is XaaS?"
 NOTE: I am trying something new.  I am going write this blog post in the open.  I will start writing my thoughts and ideas, and you will bw able to see and comment on the blog as it is developed.  Your thoughts and questions will help me to improve the this post.
 
 ## Abstract
-Cloud offers a variety of solutions and approaches: IaaS, CaaS, PaaS, FaaS, and SaaS.
+Cloud offers a variety of solutions and approaches: *IaaS, CaaS, PaaS, FaaS, and SaaS*.
 It isn't always clear which solutions and approaches are appropriate. The purpose of this paper is to clarify the approaches, their implications, appropriate usage, and confirm Intents.
 
 // qwerqerwqre
@@ -90,7 +90,7 @@ WARNING:  While not the subject of this paper, an important consideration is the
 
 ### IaaS - Infrastructure as a Service
 
-A cloud computing service that provides a basic computing platform, typically the hardware and virtual machine (VM) infrastructure (no operating system) or the hardware and an operating system. 1
+A cloud computing service that provides a basic computing platform, typically the hardware and virtual machine (VM) infrastructure (no operating system) or the hardware and an operating system. footnote:iaas[https://www.yourdictionary.com/iaas#computer]
 
 * https://aws.amazon.com/[AWS Amazon]
 * https://cloud.google.com/[GCP Google Cloud]
@@ -105,7 +105,7 @@ CaaS provides an easy way to set up a container cluster. Orchestration, which es
 technology. Google Kubernetes, Docker Swarm, Rackspace Carina and Apache Mesos are all examples of CaaS orchestration platforms. Some public cloud CaaS
 providers include Google, Amazon Web Services (AWS), Rackspace and IBM.
 
-CaaS is often considered to be a subset of IaaS (infrastructure as a service), but includes containers as its fundamental resource, as opposed to bare metal systems and virtual machines. 2
+CaaS is often considered to be a subset of IaaS (infrastructure as a service), but includes containers as its fundamental resource, as opposed to bare metal systems and virtual machines. footnote:caas[https://www.techopedia.com/definition/32444/containers-as-a-service-caas]
 
 Containers:
 
@@ -124,7 +124,7 @@ Container Orchestration:
 ### PaaS - Platform as a Service
 
 A cloud computing service that provides a comprehensive computing environment. PaaS includes the hardware, operating system, database and other necessary software for the execution of applications. It may include a complete
-development environment as well. PaaS is a step up from "infrastructure as a service" (IaaS), which provides only the servers and operating systems. 3
+development environment as well. PaaS is a step up from "infrastructure as a service" (IaaS), which provides only the servers and operating systems. footnote:paas[https://www.yourdictionary.com/paas#computer]
 
 * https://www.cloudfoundry.org/[Cloud Foundry]
 ** https://tanzu.vmware.com/tanzu[VMWare Tanzu(Pivotal Cloud Foundry)]
@@ -144,7 +144,7 @@ development environment as well. PaaS is a step up from "infrastructure as a ser
 
 A cloud computing service in which the customer pays for each function executed rather than a full server or part of a server (a virtual machine) that may be
 idle periodically. For example, the time required to execute the code that updates a record in a database would be charged to the serverless computing customer.
-Servers are indeed used, but the term implies "function as a service" (FaaS) rather than "infrastructure as a service" (see IaaS) or "platform as a service" (see PaaS). 4
+Servers are indeed used, but the term implies "function as a service" (FaaS) rather than "infrastructure as a service" (see IaaS) or "platform as a service" (see PaaS). footnote:faas[https://www.yourdictionary.com/serverless-computing#computer]
 
 * AWS Lambda
 * Google Cloud Functions 
@@ -155,7 +155,7 @@ Servers are indeed used, but the term implies "function as a service" (FaaS) rat
 * ...
 
 ### SaaS - Software as a Service
-Software that is rented rather than purchased. Instead of buying applications and paying for periodic upgrades, SaaS is subscription based, and upgrades are automatic during the subscription period. When that expires, the software is no longer valid. Ideal for Cloud Computing SaaS can be implemented with local applications that expire after a certain time, but it is ideally suited for cloud computing and applications that run in any desktop or mobile device, no matter the OS. In this model, the applications are maintained in the provider's datacenter, and every time users launch their browsers or apps and log on, they get the latest version. In addition, user data can also be stored in the cloud. 5
+Software that is rented rather than purchased. Instead of buying applications and paying for periodic upgrades, SaaS is subscription based, and upgrades are automatic during the subscription period. When that expires, the software is no longer valid. Ideal for Cloud Computing SaaS can be implemented with local applications that expire after a certain time, but it is ideally suited for cloud computing and applications that run in any desktop or mobile device, no matter the OS. In this model, the applications are maintained in the provider's datacenter, and every time users launch their browsers or apps and log on, they get the latest version. In addition, user data can also be stored in the cloud. footnote:saas[https://www.yourdictionary.com/saas#computer]
 
 * https://github.com[GitHub]
 * https://gitlab.com[GitLab]
@@ -310,7 +310,7 @@ SaaS evolved out of Application Service Providers and is the most mature and wel
 *Workloads:*
 
 * Anything NOT the Business Secret Sauce. 
-* Context Business Needs 6
+* Context Business Needs footnote:ContextBusinessNeeds[http://strategictoolkits.com/strategic-concepts/core-and-context/]
 
 *Implications:*
 
@@ -344,10 +344,4 @@ Containers are the preferred approach for making application deployment and Dev/
 - https://onepercentamonth.com/2018/10/08/caas-vs-paas-and-kubernetes-vs-pks/[CaaS vs PaaS and Kubernetes vs PKS]
 
 ## Footnotes
-. https://www.yourdictionary.com/iaas#computer
-. https://www.techopedia.com/definition/32444/containers-as-a-service-caas 
-. https://www.yourdictionary.com/paas#computer
-. https://www.yourdictionary.com/serverless-computing#computer
-. https://www.yourdictionary.com/saas#computer
-. http://strategictoolkits.com/strategic-concepts/core-and-context/
 
