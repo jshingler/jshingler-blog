@@ -42,7 +42,7 @@ IT Solutions:
 * Legacy tightly coupled monoliths
 * Large scale Commercial Off The Shelf (COTS)
 ** SAP
-** Sales Force 
+** SalesForce 
 ** Manhattan
 
 WARNING:  A clear direction and guide rails with reference architecture and implementations are required to avoid confusion, resolve competing direction and help the development teams move forward.
@@ -64,7 +64,7 @@ Factors to be considered:
 Many companies have embarked on a Cloud Journey with the goal of moving as much compute to the cloud as possible. Your Company may be using  Amazon (AWS), Google (GCP), Microsoft (Azure), or multiple clouds.
 Frequently, the cloud journey is initiated with an Infrastructure as a Service (IaaS). 
 
-With the goal of simplicity and velocity, typically expands into Container as a Service (CaaS) approach using Docker, Kubernetes or some other Container Management solution. Around 2015,  Platform as a Service (PaaS) was introduced. Pivotal Cloud Foundry (PCF) is a leanding PaaS solution.
+With the goal of simplicity and velocity, typically expands into Container as a Service (CaaS) approach using Docker, Kubernetes or some other Container Management solution. Around 2015,  Platform as a Service (PaaS) was introduced. VMWare Tanzu (Pivotal Cloud Foundry - PCF) is a leanding PaaS solution.
 
 With the goal of shutting down Traditional OnPrem Data Centers, Your company may start a  "Lift and Shift" of Virtual Machines in Data Centers to Cloud based IaaS.
 Your Company's usage of the cloud to date has largely been Infrastructure as a Service (IaaS), Cloud Services, and Software as a Service (SaaS).
@@ -253,7 +253,7 @@ CaaS is the next level of Virtualization. Virtual machines have complete copies 
 
 PaaS is an opinionated Application Infrastructure Framework that enable Development Speed. While opinionated, PaaS is still relatively flexible.
  
-WARNING:  Not all PaaSs are equal. PaaSs offer a variety of capabilities and restrictions. For Example: PCF offers additional value added capabilites overy Open Source Cloud Foundry.
+WARNING:  Not all PaaSs are equal. PaaSs offer a variety of capabilities and restrictions. For Example: VMWare Tanzu (Pivotal Cloud Foundry - PCF) offers additional value added capabilites overy Open Source Cloud Foundry.
 
 *Benefits:*
 
@@ -273,7 +273,7 @@ WARNING:  Not all PaaSs are equal. PaaSs offer a variety of capabilities and res
 
 *Implications:*
 
-* PCF has additional Licensing Costs
+* Cloud Foundry may have additional Licensing Costs
 * Lends itself to Automation, Consistency, and DevSecOps
 * Skills Uplift is relatively easy and focuses on Cloud Native Implementation
 
@@ -338,10 +338,10 @@ Containers are the preferred approach for making application deployment and Dev/
 - Security
 
 ## Additional Resources
-- Container Wars
-- Kubernetes, Serverless, and You
-- Comparing Kubernetes to Pivotal Cloud Foundry
-- CaaS vs PaaS and Kubernetes vs PKS
+- https://www.youtube.com/watch?time_continue=2359&v=NRZ6N4e-Mko[Container Wars]
+- https://www.youtube.com/watch?time_continue=2&v=LtELzpw1l1M[Kubernetes, Serverless, and You]
+- https://medium.com/@odedia/comparing-kubernetes-to-pivotal-cloud-foundry-a-developers-perspective-6d40a911f257[Comparing Kubernetes to Pivotal Cloud Foundry]
+- https://onepercentamonth.com/2018/10/08/caas-vs-paas-and-kubernetes-vs-pks/[CaaS vs PaaS and Kubernetes vs PKS]
 
 ## Footnotes
 . https://www.yourdictionary.com/iaas#computer
