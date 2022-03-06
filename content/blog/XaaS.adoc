@@ -262,7 +262,7 @@ WARNING:  Not all PaaSs are equal. PaaSs offer a variety of capabilities and res
 
 FaaS is the Newest of the "aaS" solutions. FaaS further extends the capabilities and benefits of PaaS.
 
-ERROR: Additional Research and Monitoring recommended. KNative while still young shows a great degree of promise.
+IMPORTANT: Additional Research and Monitoring recommended. KNative while still young shows a great degree of promise.
 
 *Benefits:*
 
