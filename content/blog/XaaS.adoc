@@ -12,6 +12,9 @@ description: "What is XaaS?"
 // Set toclevels to be at least your hugo [markup.tableOfContents.endLevel] config key
 :toclevels: 4
 :sectnums:
+:sectanchors:
+:sectlinks:
+:sectids:
 :source-highlighter: prettify
 :icons: font                  
 :imagesdir-old: {imagesdir}   
@@ -70,14 +73,14 @@ With the goal of shutting down Traditional OnPrem Data Centers, Your company may
 Your Company's usage of the cloud to date has largely been Infrastructure as a Service (IaaS), Cloud Services, and Software as a Service (SaaS).
 
 
-Definitions:
+*Definitions:*
 
-* Traditional On Prem
-* IaaS - Infrastructure as a Service
-* CaaS - Container as a Service
-* PaaS - Platform as a Service
-* FaaS - Function as a Service (Serverless) 
-* SaaS - Software as a Service
+* link:#_traditional_onprem[Traditional On Prem]
+* link:#_iaas_infrastructure_as_a_service[IaaS - Infrastructure as a Service]
+* link:#_caas_container_as_a_service[CaaS - Container as a Service]
+* link:#_paas_platform_as_a_service[PaaS - Platform as a Service]
+* link:#_faas_function_as_a_service_serverless[FaaS - Function as a Service (Serverless)]
+* link:#_saas_software_as_a_service[SaaS - Software as a Service]
 
 
 ### Traditional OnPrem
