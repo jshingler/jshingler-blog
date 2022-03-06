@@ -92,9 +92,9 @@ WARNING:  While not the subject of this paper, an important consideration is the
 
 A cloud computing service that provides a basic computing platform, typically the hardware and virtual machine (VM) infrastructure (no operating system) or the hardware and an operating system. 1
 
-* AWS Amazon
-* GCP Google
-* Azure Microsoft 
+* https://aws.amazon.com/[AWS Amazon]
+* https://cloud.google.com/[GCP Google Cloud]
+* https://azure.microsoft.com/en-us/[Azure Microsoft ]
 * ...
 
 ### CaaS - Container as a Service
@@ -109,16 +109,16 @@ CaaS is often considered to be a subset of IaaS (infrastructure as a service), b
 
 Containers:
 
-* Docker
-* Rocket 
-* CRI-O 
+* https://www.docker.com/resources/what-container[*Docker*]
+* https://coreos.com/rkt/[Rocket]
+* https://cri-o.io/[CRI-O]
 * ...
 
 Container Orchestration:
 
-* Docker Swarm 
-* Mesosphere 
-* Kubernetes 
+* https://docs.docker.com/engine/swarm/[Docker Swarm]
+* https://mesosphere.com/[Mesosphere]
+* https://kubernetes.io/[*Kubernetes*] 
 * ...
 
 ### PaaS - Platform as a Service
@@ -126,15 +126,18 @@ Container Orchestration:
 A cloud computing service that provides a comprehensive computing environment. PaaS includes the hardware, operating system, database and other necessary software for the execution of applications. It may include a complete
 development environment as well. PaaS is a step up from "infrastructure as a service" (IaaS), which provides only the servers and operating systems. 3
 
-* Cloud Foundry
-* Pivotal Cloud Foundry
-* BlueMix GE Predix
-* Heroku
-* Oracle Cloud 
-* OutSystems 
-* Mendix
-* Engine Yard 
-* Google App Engine 
+* https://www.cloudfoundry.org/[Cloud Foundry]
+** https://tanzu.vmware.com/tanzu[VMWare Tanzu(Pivotal Cloud Foundry)]
+** https://www.ibm.com/cloud/cloud-foundry[IBM (BlueMix)] 
+** https://www.ge.com/digital/iiot-platform[GE Predix]
+** https://cloudplatform.sap.com/index.html[SAP Cloud Platform]
+** https://cloud.gov/[Cloud.gov]
+* https://www.heroku.com/[Heroku]
+* https://www.oracle.com/cloud/[Oracle Cloud]
+* https://www.outsystems.com/p/schedule-demo/[OutSystems]
+* https://www.mendix.com/[Mendix]
+* https://www.engineyard.com/[Engine Yard]
+* https://cloud.google.com/appengine[Google App Engine]
 * ...
 
 ### FaaS - Function as a Service (Serverless) 
@@ -154,12 +157,13 @@ Servers are indeed used, but the term implies "function as a service" (FaaS) rat
 ### SaaS - Software as a Service
 Software that is rented rather than purchased. Instead of buying applications and paying for periodic upgrades, SaaS is subscription based, and upgrades are automatic during the subscription period. When that expires, the software is no longer valid. Ideal for Cloud Computing SaaS can be implemented with local applications that expire after a certain time, but it is ideally suited for cloud computing and applications that run in any desktop or mobile device, no matter the OS. In this model, the applications are maintained in the provider's datacenter, and every time users launch their browsers or apps and log on, they get the latest version. In addition, user data can also be stored in the cloud. 5
 
-* GitHub 
-* Workday 
-* Service Now 
-* Sales Force 
-* Office 365 
-* SAP
+* https://github.com[GitHub]
+* https://gitlab.com[GitLab]
+* https://www.workday.com/[Workday]
+* https://www.servicenow.com/[ServiceNow]
+* https://www.salesforce.com/[SalesForce] 
+* https://www.office.com/[Office 365]
+* https://www.sap.com/index.html[SAP]
 * ...
 
 ## Why has been Answered
