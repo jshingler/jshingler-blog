@@ -19,20 +19,15 @@ description: "What is XaaS?"
 :icons: font                  
 :imagesdir-old: {imagesdir}   
 :imagesdir: ../../../../../img/blog/XaaS 
+:imagesoutdir: static/img/blog/XaaS
+:url-issues: https://github.com/asciidoctor/asciidoctor/issues
+:outdir: .
 
 NOTE: I am trying something new.  I am going write this blog post in the open.  I will start writing my thoughts and ideas, and you will bw able to see and comment on the blog as it is developed.  Your thoughts and questions will help me to improve the this post.
 
 ## Abstract
 Cloud offers a variety of solutions and approaches: *IaaS, CaaS, PaaS, FaaS, and SaaS*.
 It isn't always clear which solutions and approaches are appropriate. The purpose of this paper is to clarify the approaches, their implications, appropriate usage, and confirm Intents.
-
-// qwerqerwqre
-
-// toc::[]
-
-
-// {{ .TableOfContents }}
-
 
 
 == Problem Statement
@@ -325,7 +320,17 @@ SaaS evolved out of Application Service Providers and is the most mature and wel
 
 The below represents, at a high level, where an application should run in the cloud.
 
-<< Decision Tree >>
+Work in Process
+[mermaid, "./run-dt", png]
+....
+graph TD
+   A(The App) --> B{Custom App?}
+   B -->|No| H{Does it <br>run on linux}
+   B -->|Yes| C{Is it very Complex}
+   C -->|Yes| G{Is it Greenfield}
+   C -->|No| E(Run on FaaS)
+   G -->|Yes| D(Run On PaaS) 
+....
 
 ### When to CaaS Containerize
 

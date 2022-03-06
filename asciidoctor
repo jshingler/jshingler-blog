@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/local/bin/asciidoctor -a allow-uri-read $*
+/usr/local/bin/asciidoctor -r asciidoctor-diagram -a allow-uri-read $*

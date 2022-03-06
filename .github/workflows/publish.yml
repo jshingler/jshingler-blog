@@ -17,7 +17,7 @@ jobs:
       run: sudo apt-get install ruby-dev
 
     - name: Install AsciiDoctor and Rouge
-      run: sudo gem install asciidoctor rouge
+      run: sudo gem install asciidoctor rouge ascidoctor-diagram
 
     - name: Update Ruby Gems
       run: sudo gem update --system 3.0.6
