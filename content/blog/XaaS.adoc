@@ -23,12 +23,11 @@ description: "What is XaaS?"
 :url-issues: https://github.com/asciidoctor/asciidoctor/issues
 :outdir: .
 
-NOTE: I am trying something new.  I am going write this blog post in the open.  I will start writing my thoughts and ideas, and you will bw able to see and comment on the blog as it is developed.  Your thoughts and questions will help me to improve the this post.
-
 ## Abstract
 Cloud offers a variety of solutions and approaches: *IaaS, CaaS, PaaS, FaaS, and SaaS*.
 It isn't always clear which solutions and approaches are appropriate. The purpose of this paper is to clarify the approaches, their implications, appropriate usage, and confirm Intents.
 
+NOTE: I am trying something new.  I am going write this blog post in the open.  I will start writing my thoughts and ideas, and you will be able to see and comment on the blog as it is developed.  Your thoughts and questions will help me to improve the this post.
 
 == Problem Statement
 
@@ -92,7 +91,7 @@ A cloud computing service that provides a basic computing platform, typically th
 
 * https://aws.amazon.com/[AWS Amazon]
 * https://cloud.google.com/[GCP Google Cloud]
-* https://azure.microsoft.com/en-us/[Azure Microsoft ]
+* https://azure.microsoft.com/en-us/[Azure Microsoft]
 * ...
 
 ### CaaS - Container as a Service
@@ -320,23 +319,58 @@ SaaS evolved out of Application Service Providers and is the most mature and wel
 
 The below represents, at a high level, where an application should run in the cloud.
 
-Work in Process
+NOTE: Work in progress
 [mermaid, "./run-dt", png]
 ....
 graph TD
    A(The App) --> B{Custom App?}
    B -->|No| H{Does it <br>run on linux}
+   H -->|No| J{Windows < 2016}
+   H -->|Yes| I{Does it have <br>cloud dependencies}
+   J -->|Yes| K(Run on IaaS)
+   J -->|No| I
+   I -->|Yes| K
+   I -->|No| L(Run on CaaS)
    B -->|Yes| C{Is it very Complex}
    C -->|Yes| G{Is it Greenfield}
+   G -->|No| I
    C -->|No| E(Run on FaaS)
    G -->|Yes| D(Run On PaaS) 
 ....
+
+NOTE: The above diagram is adapted from prior work by https://www.linkedin.com/in/douglas-hoke-797b3b9/[Doug Hoke]
 
 ### When to CaaS Containerize
 
 Containers are the preferred approach for making application deployment and Dev/Ops fundamental to all applications and their teams. There are things to take into account when making your decision to modify your application to run in a container. Provided below is a decision tree to help with making this determination.
 
-<< Decision Tree >>
+NOTE: Work in progress
+[mermaid, "./when-caas", png]
+....
+graph TD
+   A(Should I run <br>a Container) --> B{Is there an <br>App Team?}
+   B -->|No| H(No)
+   B -->|Yes| C{Does it run <br>on Linux}
+   C -->|Yes| D{Vendor Supports <br>Containers}
+   C -->|No| F{Is there a Linux <br>Variant}
+   F -->|Yes| D
+   D -->|Yes| E(Containerize)
+   F -->|No| G{Runs on Window 2016+}
+   G -->|No| J{Is Upgrade <br>Available}
+   G -->|Yes| I{Team knows <br> Powershell}
+   J -->|Yes| I
+   J -->|No| H   
+   I -->|Yes| E
+   I -->|No| H
+   D -->|No| K{Willing to <br>do DevSecOps}
+   K -->|Yes| L{Willing to <br>build container}
+   K -->|No| H
+   L -->|No| H
+   L -->|Yes| E
+   
+....
+
+NOTE: The above diagram is adapted from prior work by https://www.linkedin.com/in/douglas-hoke-797b3b9/[Doug Hoke]
 
 ## Additional Considerations
 
