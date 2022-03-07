@@ -349,15 +349,15 @@ NOTE: Work in progress
 ....
 graph TD
    A(Should I run <br>a Container) --> B{Is there an <br>App Team?}
-   B -->|No| H(No)
    B -->|Yes| C{Does it run <br>on Linux}
+   B -->|No| H(No)
    C -->|Yes| D{Vendor Supports <br>Containers}
    C -->|No| F{Is there a Linux <br>Variant}
    F -->|Yes| D
    D -->|Yes| E(Containerize)
    F -->|No| G{Runs on Window 2016+}
-   G -->|No| J{Is Upgrade <br>Available}
    G -->|Yes| I{Team knows <br> Powershell}
+   G -->|No| J{Is Upgrade <br>Available}
    J -->|Yes| I
    J -->|No| H   
    I -->|Yes| E
@@ -365,8 +365,8 @@ graph TD
    D -->|No| K{Willing to <br>do DevSecOps}
    K -->|Yes| L{Willing to <br>build container}
    K -->|No| H
-   L -->|No| H
    L -->|Yes| E
+   L -->|No| H
    
 ....
 
