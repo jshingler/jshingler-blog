@@ -61,8 +61,6 @@ jobs:
         git status
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
-      with:
-        personal_token: 
       env:
         #ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
