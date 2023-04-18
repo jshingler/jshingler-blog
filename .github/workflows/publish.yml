@@ -62,6 +62,11 @@ jobs:
         git status
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3.9.3
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        external_repository: jshingler/jshingler.github.io
+        publish_brance: master
+        publish_dir: ./public
       env:
         #ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
