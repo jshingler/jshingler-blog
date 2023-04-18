@@ -19,8 +19,8 @@ jobs:
     - name: Install AsciiDoctor and Rouge
       run: sudo gem install asciidoctor rouge asciidoctor-diagram
 
-    - name: Update Ruby Gems
-      run: sudo gem update --system 3.0.6
+    #- name: Update Ruby Gems
+    #  run: sudo gem update --system 3.0.6
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
