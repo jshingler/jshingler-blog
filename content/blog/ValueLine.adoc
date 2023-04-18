@@ -1,0 +1,55 @@
+---
+title: "Value Line"
+date: 2023-04-01T12:37:26-04:00
+draft: true
+tags: ["Cloud", "Value Line"]
+categories: ["Cloud","Thinking"]
+Xbanner: "img/blog/ValueLine/ValueLine.drawio.png"
+banner: "img/blog/ValueLine/ValueLine.png"
+author: "Jim Shingler"
+description: "Using the Value Line to guide thinking"
+---
+
+I first heard of The Value Line from https://www.linkedin.com/in/jamesjwatters/[James Watters] in a presentation about Cloud Foundry and how Cloud Foundry helps keep a companies most valuable asset, People, above the value line, out of toil, and innovating business value.  The Value Line is a great thinking tool.  The Value Line is similar to another idea from https://www.linkedin.com/in/geoffreyamoore/[Geoffery Moore], https://www.linkedin.com/pulse/core-context-future-work-geoffrey-moore/["Core vs Context"] in his book https://www.amazon.com/Dealing-Darwin-Companies-Innovate-Evolution/dp/159184214X[Dealing with Darwin].
+
+"The Value Line" and "Core vs Context" combine to create a thinking framework.
+
+++++
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;app.diagrams.net\&quot; modified=\&quot;2022-08-28T00:28:47.286Z\&quot; agent=\&quot;5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\&quot; etag=\&quot;S4oAwABHAhPFcV7WOTQl\&quot; version=\&quot;20.0.1\&quot;&gt;&lt;diagram id=\&quot;3Npiuwxkk_19eDKx4Qxb\&quot; name=\&quot;Page-1\&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
+++++
+
+## Core: Above the Value Line
+
+A business's reason for being, their Core.
+
+In business, this is why people give a business money.  This is where a business needs to focus (Time, Investments, People) and innovate.  
+
+
+## Context: Below the Value Line
+
+This is things you have to do just because your in business.  For example, unless your business is a lawncare company, your business doesn't make any money because you have the best cared for lawn.  Spending precious assets, People and Focus, on this would be a waste.  Lawncare is a perfect example of something you should be outsource to some other company.  A company where lawncare is their Core.
+
+## Application to IT in the Information Age
+
+IT is full or create people that enjoy solving problems.  Developers / Engineers are makers / creators.  Developers love to create things.  The key is to direct their creativity and focus to the Core of the busines, above the value line delivering innovative business value.
+
+Because of their creative nature, it is easy for developers to get distracted by the contenxt, below the value line activities of creating a solution.  Activities that may distract developers are:
+- Custom build and deploy systems
+- Writing their own frameworks for testing, security, accessng a resource manager, router, Infrastructure as Code, ...
+- ...
+
+The truth is that it can be a lot of fun and interesting challenge.  Unless, the company is in the business of frameworks, the solution developers need to focus on the business value, not the context minutia of creating solutions.  The context problems are best addresseed by centralized shared service teams.   Today, the centralized shard service teams are composed of people focused on:
+- DevSecOps
+- Enterprise Architecture
+- Cloud Engineering
+- APIs
+- Security
+
+Today's solutions are too complex for any one team to deliver them by themselves.  The key for the centralized shared service teams to take a collaborative product approach with the solution delivery teams as customers.  
+
+The solution delivery teams context is core for the centralized shared service teams
+
+
+
+
