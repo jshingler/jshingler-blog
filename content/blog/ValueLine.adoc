@@ -10,7 +10,9 @@ author: "Jim Shingler"
 description: "Using the Value Line to guide thinking"
 ---
 
-I first heard of The Value Line from https://www.linkedin.com/in/jamesjwatters/[James Watters] in a presentation about Cloud Foundry and how Cloud Foundry helps keep a companies most valuable asset, People, above the value line, out of toil, and innovating business value.  The Value Line is a great thinking tool.  The Value Line is similar to another idea from https://www.linkedin.com/in/geoffreyamoore/[Geoffery Moore], https://www.linkedin.com/pulse/core-context-future-work-geoffrey-moore/["Core vs Context"] in his book https://www.amazon.com/Dealing-Darwin-Companies-Innovate-Evolution/dp/159184214X[Dealing with Darwin].
+
+## Introduction:
+During a presentation on Cloud Foundry by https://www.linkedin.com/in/jamesjwatters/[James Watters], I was introduced to the concept of "The Value Line." This framework, along with https://www.linkedin.com/in/geoffreyamoore/[Geoffery Moore]'s https://www.linkedin.com/pulse/core-context-future-work-geoffrey-moore/["Core vs Context"] from his book https://www.amazon.com/Dealing-Darwin-Companies-Innovate-Evolution/dp/159184214X[Dealing with Darwin]., provides a valuable thinking tool to help businesses focus on innovation and business value.
 
 "The Value Line" and "Core vs Context" combine to create a thinking framework.
 
@@ -19,11 +21,9 @@ I first heard of The Value Line from https://www.linkedin.com/in/jamesjwatters/[
 <script type="text/javascript" src="https://viewer.diagrams.net/js/viewer-static.min.js"></script>
 ++++
 
-## Core: Above the Value Line
+## The Value Line Framework
 
-A business's reason for being, their Core.
-
-In business, this is why people give a business money.  This is where a business needs to focus (Time, Investments, People) and innovate.  
+The Value Line Framework is divided into two sections: the Core and the Context. The Core represents a business's reason for being and where it needs to focus its time, investments, and innovation. This is what customers pay for and where differentiated value lies. On the other hand, the Context is where a business spends time and money just because it's in business. This includes activities that are necessary but don't contribute to a company's unique value proposition, such as IT infrastructure, administrative tasks, and other non-core functions.
 
 
 ## Context: Below the Value Line
@@ -32,23 +32,11 @@ This is things you have to do just because your in business.  For example, unles
 
 ## Application to IT in the Information Age
 
-IT is full or create people that enjoy solving problems.  Developers / Engineers are makers / creators.  Developers love to create things.  The key is to direct their creativity and focus to the Core of the busines, above the value line delivering innovative business value.
+The Value Line Framework can be applied to the IT industry, where developers and engineers are makers and creators. Developers have a natural inclination to solve problems, but they need to be directed to focus on the Core of the business and deliver innovative business value. Activities that distract from this focus, such as custom building and deploying systems or writing frameworks for testing, should be centralized in shared service teams. These teams can address Context problems such as DevSecOps, Enterprise Architecture, Cloud Engineering, APIs, and Security, while the solution delivery teams focus on the Core.
 
-Because of their creative nature, it is easy for developers to get distracted by the contenxt, below the value line activities of creating a solution.  Activities that may distract developers are:
-- Custom build and deploy systems
-- Writing their own frameworks for testing, security, accessng a resource manager, router, Infrastructure as Code, ...
-- ...
 
-The truth is that it can be a lot of fun and interesting challenge.  Unless, the company is in the business of frameworks, the solution developers need to focus on the business value, not the context minutia of creating solutions.  The context problems are best addresseed by centralized shared service teams.   Today, the centralized shard service teams are composed of people focused on:
-- DevSecOps
-- Enterprise Architecture
-- Cloud Engineering
-- APIs
-- Security
-
-Today's solutions are too complex for any one team to deliver them by themselves.  The key for the centralized shared service teams to take a collaborative product approach with the solution delivery teams as customers.  
-
-The solution delivery teams context is core for the centralized shared service teams
+## Conclusion:
+The Value Line Framework, along with the Core vs. Context concept, provides a valuable thinking tool for businesses to focus on innovation and business value. By directing creativity and focus to the Core, businesses can deliver unique value propositions that differentiate them from their competitors. By addressing Context problems through centralized shared service teams, businesses can maximize investments in time, money, and focus, while minimizing investment in non-core functions.
 
 
 
