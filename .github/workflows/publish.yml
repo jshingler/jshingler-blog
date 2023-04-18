@@ -43,7 +43,7 @@ jobs:
 
     - name: Prepare to push generated artifacts back to the repo
       run: |
-        set -x
+        # set -x
         echo "Current Dir: `pwd`"
         echo "AsciiDoctor Logation: `which asciidoctor`"
         echo "PATH: " $PATH
@@ -51,7 +51,7 @@ jobs:
         echo "PATH2: " $PATH
         ls -la
         which asciidoctor
-        tree
+        # tree
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
         git status
@@ -70,10 +70,10 @@ jobs:
       env:
         #ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-        EXTERNAL_REPOSITORY: jshingler/jshingler.github.io
-        PUBLISH_BRANCH: master
-        PUBLISH_DIR: ./public
+        # PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        # EXTERNAL_REPOSITORY: jshingler/jshingler.github.io
+        # PUBLISH_BRANCH: master
+        # PUBLISH_DIR: ./public
               # - name: Push changes jshingler.github.io Master
               #   uses: ad-m/github-push-action@master
               #   with:
