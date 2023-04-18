@@ -25,7 +25,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.68.0'
+        hugo-version: '0.111.3'
 
     - name: Build
       run: |
@@ -35,7 +35,7 @@ jobs:
         hugo
 
     # - name: Deploy
-    #   uses: peaceiris/actions-gh-pages@v2
+    #   uses: peaceiris/actions-gh-pages@v3.9.3
     #   env:
     #     ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
     #     PUBLISH_BRANCH: gh-pages
@@ -43,7 +43,7 @@ jobs:
 
     - name: Prepare to push generated artifacts back to the repo
       run: |
-        #set -x
+        set -x
         echo "Current Dir: `pwd`"
         echo "AsciiDoctor Logation: `which asciidoctor`"
         echo "PATH: " $PATH
@@ -51,6 +51,7 @@ jobs:
         echo "PATH2: " $PATH
         ls -la
         which asciidoctor
+        tree
         git config --global user.email "shinglerjim@gmail.com"
         git config --global user.name "Jim Shingler"
         git status
@@ -60,7 +61,7 @@ jobs:
         git commit -m "Publish artifacts: `date`"
         git status
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2
+      uses: peaceiris/actions-gh-pages@v3.9.3
       env:
         #ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
