@@ -65,7 +65,7 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         external_repository: jshingler/jshingler.github.io
-        publish_brance: master
+        publish_branch: master
         publish_dir: ./public
       env:
         #ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
