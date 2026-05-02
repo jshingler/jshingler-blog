@@ -1,6 +1,6 @@
 baseURL = "https://jshingler.github.io/"
 languageCode = "en-us"
-title = "Jim Shingler Blog"
+title = "Jim Shingler"
 theme = "hugo-universal-theme"
 style = "green"
 # Site language. Available translations in the theme's `/i18n` directory.
@@ -132,9 +132,8 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    #logo = "img/logo.png"
-    logo = "img/JShingler2.png"
-    #logo_small = "img/logo-small.png"
+    logo = "img/JShingler_3_01_primary_full_signature_transparent.svg"
+    logo_small = "img/JShingler_3_01_primary_full_signature_transparent.svg"
     address = """<p><strong>Jim Shingler</strong>
         <br>
         <br>
@@ -204,7 +203,7 @@ paginate = 10
 
 [params.recent_posts]
     enable = true
-    title = "Jim Shingler blog"
+    title = "Jim Shingler"
     subtitle = "Thoughts on: Technical, Professional, and Personal Development"
 
 [security]
