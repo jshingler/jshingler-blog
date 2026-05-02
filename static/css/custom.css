@@ -432,4 +432,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 .show-for-print{display:inherit!important}}
 
 
+
+/* Logo sizing — constrain SVG signature to navbar height */
+.navbar-brand.home img {
+    max-height: 50px;
+    width: auto;
+}
+
 /* JIM END */
